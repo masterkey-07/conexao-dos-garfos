@@ -11,6 +11,8 @@ colunas = [
     "Chegada Prevista"
 ]
 
+df = df[df['Empresa Aérea'] == "TAM LINHAS AÉREAS S.A."]
+
 df = df[colunas].dropna()
 
 # Início do conteúdo DOT

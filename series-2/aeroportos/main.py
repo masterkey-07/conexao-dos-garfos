@@ -1,7 +1,7 @@
 import networkx as nx
 
 # Carrega o grafo a partir do arquivo DOT
-graph = nx.drawing.nx_pydot.read_dot("aeroportos.dot")
+graph = nx.drawing.nx_pydot.read_dot("subaeroportos.dot")
 
 # Converte para grafo simples, se necessário
 G = nx.Graph(graph)  # Use nx.DiGraph(graph) se for direcionado
@@ -62,17 +62,12 @@ for node in G.nodes:
         if node != target:
             try:
                 paths = list(nx.all_simple_paths(G, source=node, target=target))
-                print(len(path))
                 for path in paths:
                     if len(path) > len(longest_path):
                         longest_path = path
-
-
-                    if len(path) > 50:
-                        print("Caminho simples mais longo:", longest_path)
-                        print("Número de cidades (vértices) no caminho:", len(longest_path))
-                        exit(0)
                         
             except:
-                print('hi')
                 continue
+
+print("Caminho simples mais longo:", longest_path)
+print("Número de cidades (vértices) no caminho:", len(longest_path))
