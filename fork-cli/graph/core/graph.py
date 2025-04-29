@@ -1,6 +1,5 @@
 from graph.core.edge import Edge
 from graph.core.node import Node
-from graph.error.node import NodeNotFoundError
 from graph.utils.node_pool import NodePool
 
 class Graph:
@@ -41,3 +40,26 @@ class Graph:
         self._edges.append(edge)
 
         return edge
+    
+    def to_adjacent_matrix(self):
+        node_ids = self._node_pool.get_node_ids()
+        
+        adjacent_matrix = {'data': [], 'nodes': node_ids}
+        
+        # Map node ID to index for quick lookup
+        id_to_index = {node_id: index for index, node_id in enumerate(node_ids)}
+        
+        # Initialize the matrix with zeros
+        size = len(node_ids)
+        matrix = [[0 for _ in range(size)] for _ in range(size)]
+
+        # Populate the matrix with edges
+        for edge in self._edges:
+            from_id = edge.first_node.id
+            to_id = edge.second_node.id
+            i = id_to_index[from_id]
+            j = id_to_index[to_id]
+            matrix[i][j] = 1  # or edge, or edge.weight, depending on your needs
+
+        adjacent_matrix['data'] = matrix
+        return adjacent_matrix

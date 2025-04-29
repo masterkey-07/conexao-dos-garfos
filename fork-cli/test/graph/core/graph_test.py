@@ -54,3 +54,24 @@ def test_add_edge_with_missing_node(graph: Graph):
     edge = graph.add_edge("A", "B")
     
     assert edge is None
+
+def test_to_adjacent_matrix(graph: Graph):
+    graph.add_node("A")
+    graph.add_node("B")
+    graph.add_node("C")
+
+    graph.add_edge("A", "B")
+    graph.add_edge("B", "C")
+
+    matrix_data = graph.to_adjacent_matrix()
+
+    nodes = matrix_data['nodes']
+    data = matrix_data['data']
+
+    id_to_index = {node_id: i for i, node_id in enumerate(nodes)}
+
+    expected = [[0 for _ in nodes] for _ in nodes]
+    expected[id_to_index["A"]][id_to_index["B"]] = 1
+    expected[id_to_index["B"]][id_to_index["C"]] = 1
+
+    assert data == expected, f"Expected matrix {expected}, but got {data}"

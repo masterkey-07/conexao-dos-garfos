@@ -35,3 +35,6 @@ class NodePool:
             raise NodeNotFoundError()
         
         del self._pool[id]
+    
+    def get_node_ids(self):
+        return self._pool.keys()
