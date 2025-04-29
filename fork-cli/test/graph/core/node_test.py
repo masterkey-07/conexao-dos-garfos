@@ -1,15 +1,15 @@
 import pytest
-from graph.node import Node
-from graph.exceptions import WrongNodeIdException
+from graph.core.node import Node
+from graph.error.node import WrongNodeIdError
 
 NODE_ID = 'id'
 PROPERTY = {'weigh': 1 }
 
 def test_wrong_id_types():
-    with pytest.raises(WrongNodeIdException):
+    with pytest.raises(WrongNodeIdError):
         Node(None)
 
-    with pytest.raises(WrongNodeIdException):
+    with pytest.raises(WrongNodeIdError):
         Node(10)
 
 def test_id_value():

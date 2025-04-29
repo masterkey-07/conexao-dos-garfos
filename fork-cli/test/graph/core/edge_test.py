@@ -1,6 +1,7 @@
 import pytest
-from graph.node import Node
-from graph.edge import Edge, WrongNodeTypeException
+from graph.core.node import Node
+from graph.core.edge import Edge
+from graph.error.node import WrongNodeTypeError
 
 print(__name__)
 
@@ -9,7 +10,7 @@ NODE_B = Node('B')
 PROPERTY = {'weigh': 1 }
 
 def _verity_wrong_node_type_exception(a, b):
-    with pytest.raises(WrongNodeTypeException):
+    with pytest.raises(WrongNodeTypeError):
         Edge(a, b)
 
 def test_wrong_id_types():

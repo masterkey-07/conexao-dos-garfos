@@ -1,15 +1,15 @@
-class WrongNodeTypeException(Exception):
+class WrongNodeTypeError(Exception):
     def __init__(self, *args):
         super().__init__(*args)
 
-class DuplicateNodeException(Exception):
+class DuplicateNodeError(Exception):
     def __init__(self, *args):
         super().__init__(*args)
 
-class NodeNotFoundException(Exception):
+class NodeNotFoundError(Exception):
     def __init__(self, *args):
         super().__init__(*args)
 
-class WrongNodeIdException(Exception):
+class WrongNodeIdError(Exception):
     def __init__(self):
         pass

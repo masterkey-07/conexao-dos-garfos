@@ -1,5 +1,6 @@
 import pytest
-from graph.graph import Graph
+
+from graph.core.graph import Graph
 
 def test_is_buildable():
     _ = Graph()

@@ -1,10 +1,10 @@
 from .node import Node
-from .exceptions import WrongNodeTypeException
+from graph.error.node import WrongNodeTypeError
 
 class Edge:
     def __init__(self, first_node: Node, second_node: Node, properties: dict = None):
         if not (isinstance(first_node, Node) and isinstance(second_node, Node)):
-            raise WrongNodeTypeException()
+            raise WrongNodeTypeError()
             
         self._first_node = first_node
         self._second_node = second_node

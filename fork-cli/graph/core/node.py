@@ -1,9 +1,9 @@
-from graph.exceptions import WrongNodeIdException
+from graph.error.node import WrongNodeIdError
 
 class Node:
     def __init__(self, id: str, properties: dict = None):
         if not isinstance(id, str):
-            raise WrongNodeIdException()
+            raise WrongNodeIdError()
         
         self._id = id
 

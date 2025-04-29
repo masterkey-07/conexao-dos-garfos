@@ -1,4 +1,4 @@
-from graph.node import Node
+from graph.core.node import Node
 from graph.utils.node_pool import NodePool
 
 class Graph:

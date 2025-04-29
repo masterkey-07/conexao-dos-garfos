@@ -1,6 +1,6 @@
 import pytest
-from graph.node import Node
-from graph.exceptions import *
+from graph.core.node import Node
+from graph.error.node import *
 from graph.utils.node_pool import NodePool
 
 NODE_A = Node('A')
@@ -13,19 +13,19 @@ def test_is_buildable():
 def test_set_node_type_error():
     pool = NodePool()
 
-    with pytest.raises(WrongNodeTypeException):
+    with pytest.raises(WrongNodeTypeError):
         pool.set(None)
 
 def test_wrong_id_on_get():
     pool = NodePool()
     
-    with pytest.raises(WrongNodeIdException):
+    with pytest.raises(WrongNodeIdError):
         pool.get(None)
 
-    with pytest.raises(WrongNodeIdException):
+    with pytest.raises(WrongNodeIdError):
         pool.get(10)
 
-    with pytest.raises(WrongNodeIdException):
+    with pytest.raises(WrongNodeIdError):
         pool.get(Node('B'))
 
 def test_set_and_get_node():
@@ -55,8 +55,8 @@ def test_del_node():
 
     assert pool.get('B') == None
 
-    with pytest.raises(NodeNotFoundException):
+    with pytest.raises(NodeNotFoundError):
         pool.delete('A')
 
-    with pytest.raises(NodeNotFoundException):
+    with pytest.raises(NodeNotFoundError):
         pool.delete('B')

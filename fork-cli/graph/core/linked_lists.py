@@ -1,0 +1,2 @@
+class LinkedLists:
+    pass

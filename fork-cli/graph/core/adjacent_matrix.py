@@ -1,0 +1,2 @@
+class AdjacentMatrix:
+    pass

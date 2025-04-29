@@ -1,16 +1,54 @@
+# FORK-CLI
+
+## Setup
+
+**1 - Create python virtual environment**
+
+```bash
+python3 -m venv .venv
+```
+
+**2 - Activate python virtual environment**
+
+On Windows
+```bash
+.venv\Scripts\activate
+source .venv/bin/activate
+```
+
+On Linux
+```bash
+source .venv/bin/activate
+```
+
+**3 - Run Tests**
+```
+pytest
+```
+
+**4 - Run Fork CLI**
+```
+python3 fork.py
+```
+
+## Demanda da Série 3
+
 #### Implemente na linguagem de programação que você pretende usar no curso de Teoria de Grafos as seguintes funções de geração de estrutura de dados para representação de um grafo G=(V,E). Não use bibliotecas de qualquer linguagem na sua implementação, com exceção de funções para visualizar seu grafo.
 
 1. Dado um grafo, gere sua matriz de adjacência;
 2. Dado a matriz de adjacência, gere o grafo correspondente;
+
 3. Dado um grafo, gere sua matriz de incidência;
 4. Dado uma matriz de incidência, gere o grafo correspondente;
+
 5. Dado um grado, gere sua lista;
 6. Dado uma lista, gere o grafo correspondente;
+
 7. Implemente funções que da a descrição de um grafo numa das representações indicadas acima, gere as outras duas representações que vimos em aula.
+
 Para cada um dos subitens acima, descreva como você fez sua implementação.
 
-#### Considerando as estruturas implementadas no exercício anterior, para cada uma das estruturas de dados e grafo correspondente, implemente funções que
-calcule:
+#### Considerando as estruturas implementadas no exercício anterior, para cada uma das estruturas de dados e grafo correspondente, implemente funções que calcule:
 
 1. O número de vértices de um grafo;
 2. O número de arestas de um grafo;
@@ -20,8 +58,7 @@ calcule:
 6. Dado um grafo, o grau associado a cada vértice;
 7. Dado dois vértices específicos, retorne um caminho simples entre eles;
 8. Dado um vértice, retorne, se existir, um ciclo no qual ele se situe.
-9. Dado um conjunto G’=(V’,E’) e G=(V,E), verificar se G’é subgrafo de G ou vice-
-versa;
+9. Dado um conjunto G’=(V’,E’) e G=(V,E), verificar se G’é subgrafo de G ou vice-versa;
 
 Para cada uma das implementações acima, explique a lógica que você
 usou para chegar até as funções.

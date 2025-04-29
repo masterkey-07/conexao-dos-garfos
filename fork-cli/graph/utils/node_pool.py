@@ -1,5 +1,5 @@
-from graph.node import Node
-from graph.exceptions import *
+from graph.core.node import Node
+from graph.error.node import *
 
 class NodePool:
     def __init__(self):
@@ -7,16 +7,16 @@ class NodePool:
 
     def _check_id(self, id:str):
         if not isinstance(id, str):
-            raise WrongNodeIdException()
+            raise WrongNodeIdError()
 
         return id in self._pool
 
     def set(self, node:Node):
         if not isinstance(node, Node):
-            raise WrongNodeTypeException()
+            raise WrongNodeTypeError()
 
         if node.id in self._pool:
-            raise DuplicateNodeException()
+            raise DuplicateNodeError()
 
         self._pool[node.id] = node
 
@@ -32,6 +32,6 @@ class NodePool:
         has_id = self._check_id(id)
 
         if not has_id:
-            raise NodeNotFoundException()
+            raise NodeNotFoundError()
         
         del self._pool[id]
