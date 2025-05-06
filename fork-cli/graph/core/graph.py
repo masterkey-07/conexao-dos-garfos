@@ -46,20 +46,21 @@ class Graph:
         
         adjacent_matrix = {'data': [], 'nodes': node_ids}
         
-        # Map node ID to index for quick lookup
         id_to_index = {node_id: index for index, node_id in enumerate(node_ids)}
         
-        # Initialize the matrix with zeros
         size = len(node_ids)
         matrix = [[0 for _ in range(size)] for _ in range(size)]
 
-        # Populate the matrix with edges
         for edge in self._edges:
-            from_id = edge.first_node.id
-            to_id = edge.second_node.id
-            i = id_to_index[from_id]
-            j = id_to_index[to_id]
-            matrix[i][j] = 1  # or edge, or edge.weight, depending on your needs
+            first_node_id = edge.first_node.id
+            second_node_id = edge.second_node.id
+        
+            first_node_index = id_to_index[first_node_id]
+            second_node_index = id_to_index[second_node_id]
+
+            matrix[first_node_index][second_node_index] = 1  
+            matrix[second_node_index][first_node_index] = 1  
 
         adjacent_matrix['data'] = matrix
+        
         return adjacent_matrix

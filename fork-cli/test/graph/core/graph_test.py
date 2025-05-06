@@ -55,6 +55,21 @@ def test_add_edge_with_missing_node(graph: Graph):
     
     assert edge is None
 
+def test_to_adjacent_matrix_with_no_edges(graph: Graph):
+    graph.add_node("A")
+    graph.add_node("B")
+    graph.add_node("C")
+
+    matrix_data = graph.to_adjacent_matrix()
+
+    nodes = matrix_data['nodes']
+    data = matrix_data['data']
+
+    expected = [[0 for _ in nodes] for _ in nodes]
+
+    assert data == expected, f"Expected matrix {expected}, but got {data}"
+
+
 def test_to_adjacent_matrix(graph: Graph):
     graph.add_node("A")
     graph.add_node("B")
@@ -72,6 +87,19 @@ def test_to_adjacent_matrix(graph: Graph):
 
     expected = [[0 for _ in nodes] for _ in nodes]
     expected[id_to_index["A"]][id_to_index["B"]] = 1
+    expected[id_to_index["B"]][id_to_index["A"]] = 1
     expected[id_to_index["B"]][id_to_index["C"]] = 1
+    expected[id_to_index["C"]][id_to_index["B"]] = 1
+
+    assert data == expected, f"Expected matrix {expected}, but got {data}"
+
+    graph.add_edge("A", "C")
+
+    matrix_data = graph.to_adjacent_matrix()
+
+    data = matrix_data['data']
+
+    expected[id_to_index["A"]][id_to_index["C"]] = 1
+    expected[id_to_index["C"]][id_to_index["A"]] = 1
 
     assert data == expected, f"Expected matrix {expected}, but got {data}"
