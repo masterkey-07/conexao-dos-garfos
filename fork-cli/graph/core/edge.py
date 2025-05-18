@@ -11,11 +11,11 @@ class Edge:
         self._properties = properties or {}
 
     @property
-    def first_node(self) -> dict:
+    def first_node(self) -> Node:
         return self._first_node
 
     @property
-    def second_node(self) -> dict:
+    def second_node(self) -> Node:
         return self._second_node
 
     @property

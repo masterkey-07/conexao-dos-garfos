@@ -2,7 +2,7 @@ import pytest
 from graph.core.node import Node
 from graph.error.node import WrongNodeIdError
 
-NODE_ID = 'id'
+NODE_ID = 'node_id'
 PROPERTY = {'weigh': 1 }
 
 def test_wrong_id_types():
@@ -15,7 +15,7 @@ def test_wrong_id_types():
 def test_id_value():
     node = Node(NODE_ID)
 
-    assert node.id == NODE_ID
+    assert node.node_id == NODE_ID
 
 def test_property_value():
     node = Node(NODE_ID, PROPERTY)

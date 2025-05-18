@@ -1,18 +1,18 @@
 from graph.error.node import WrongNodeIdError
 
 class Node:
-    def __init__(self, id: str, properties: dict = None):
-        if not isinstance(id, str):
+    def __init__(self, node_id: str, properties: dict = None):
+        if not isinstance(node_id, str):
             raise WrongNodeIdError()
         
-        self._id = id
+        self._id = node_id
 
         self._edges = []
 
         self._properties = properties or {}
 
     @property
-    def id(self) -> str:
+    def node_id(self) -> str:
         return self._id
 
     @property
