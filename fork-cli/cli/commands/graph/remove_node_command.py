@@ -6,7 +6,7 @@ class RemoveNodeCommand(Command):
         return "rn"
 
     def execute(self, context, args):
-        if not hasattr(context, "graph") or context.graph is None:
+        if not hasattr(context, "current_graph") or context.current_graph is None:
             print("No graph selected. Please select a graph first.")
             return
 
@@ -15,9 +15,9 @@ class RemoveNodeCommand(Command):
             return
 
         node_id = args[0]
-        removed = context.graph.remove_node(node_id)
+        removed = context.current_graph.remove_node(node_id)
         if removed:
-            print(f"Node '{node_id}' removed from graph '{context.graph.name}'.")
+            print(f"Node '{node_id}' removed from graph '{context.current_graph.name}'.")
         else:
             print(f"Node '{node_id}' could not be removed (it may not exist).")
 
