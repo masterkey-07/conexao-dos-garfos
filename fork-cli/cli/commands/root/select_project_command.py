@@ -36,7 +36,7 @@ class SelectProjectCommand(Command):
         new_context.current_project = project
 
         # Start a new Commander session for the selected project
-        commander = Commander(commands=PROJECT_COMMANDS, context=new_context)
+        commander = Commander(commands=PROJECT_COMMANDS, context=new_context, context_name=project_name + ">")
         commander.run()
 
         print(f"Exited project '{project_name}'")

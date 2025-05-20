@@ -38,7 +38,7 @@ class SelectRepresentationCommand(Command):
         print(f"Graph representation set to '{representation}' for graph '{context.current_graph.name}'.")
 
         # Start a new Commander session for representation commands if needed
-        commander = Commander(commands=REPRESENTATION_COMMANDS, context=context)
+        commander = Commander(commands=REPRESENTATION_COMMANDS, context=context, context_name=context.current_project.project_name + "/" + context.current_graph.name + "/" + representation + ">")
         commander.run()
 
         context.current_representation = None

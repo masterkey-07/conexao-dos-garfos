@@ -28,7 +28,7 @@ class SelectGraphCommand(Command):
         print(f"Graph '{graph_name}' selected in project '{context.current_project.project_name}'.")
 
         # Start a new Commander session for the selected graph with graph commands
-        commander = Commander(commands=GRAPH_COMMANDS, context=context)
+        commander = Commander(commands=GRAPH_COMMANDS, context=context, context_name=context.current_project.project_name + "/" + graph_name + ">")
         
         commander.run()
 

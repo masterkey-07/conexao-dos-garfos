@@ -3,10 +3,11 @@ from cli.context import Context
 from cli.command import Command
 
 class Commander:
-    def __init__(self, context: Context, commands: list[Command]):
+    def __init__(self, context: Context, commands: list[Command], context_name:str = "fork>"):
         self.__context = context
+        self._context_name = context_name
         self.__commands = {cmd.symbol: cmd for cmd in commands}
-
+    
     def help(self):
         for cmd in self.__commands.values():
             print(cmd)
@@ -25,7 +26,7 @@ class Commander:
     def run(self):
         while True:
             try:
-                user_input = input("> ").strip()
+                user_input = input(self._context_name).strip()
                 
                 if user_input == "clear":
                     system("cls" if os_name == "nt" else "clear")
