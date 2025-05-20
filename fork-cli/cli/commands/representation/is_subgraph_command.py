@@ -15,7 +15,7 @@ class IsSubgraphCommand(Command):
 
         if len(args) < 2:
             print("Usage: isg <other_graph> <representation_mode>")
-            print("You must provide another graph representation object in the context (e.g., context.other_representation).")
+            print("You must provide another graph representation from another graph.")
             return
 
         other_graph = args[0]
@@ -48,4 +48,4 @@ class IsSubgraphCommand(Command):
             print("The current representation is NOT a subgraph of the given representation.")
 
     def __str__(self):
-        return "isg <other_graph_representation> - Check if the current representation is a subgraph of another"
+        return "isg <other_graph> <representation_mode> - Check if the current representation is a subgraph of another representation from another graph"
