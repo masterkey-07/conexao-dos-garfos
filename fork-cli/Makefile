@@ -11,6 +11,10 @@ build:
 	@echo "Building standalone binary with PyInstaller..."
 	pyinstaller --onefile --name $(APP_NAME) $(ENTRY)
 
+test:
+	@echo "Testing projects..."
+	pytest
+
 install: build
 	@echo "Installing binary to /usr/local/bin/ (requires sudo)"
 	sudo cp dist/$(APP_NAME) /usr/local/bin/$(APP_NAME)
