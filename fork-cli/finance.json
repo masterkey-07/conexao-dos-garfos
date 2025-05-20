@@ -1,0 +1,6303 @@
+{
+  "name": "finance",
+  "nodes": [
+    { "id": "Canada", "properties": {} },
+    { "id": "Netherlands", "properties": {} },
+    { "id": "Finland", "properties": {} },
+    { "id": "Slovenia", "properties": {} },
+    { "id": "Russia", "properties": {} },
+    { "id": "Switzerland", "properties": {} },
+    { "id": "France", "properties": {} },
+    { "id": "Korea", "properties": {} },
+    { "id": "Czechia", "properties": {} },
+    { "id": "Mexico", "properties": {} },
+    { "id": "Austria", "properties": {} },
+    { "id": "Israel", "properties": {} },
+    { "id": "Japan", "properties": {} },
+    { "id": "Belgium", "properties": {} },
+    { "id": "Sweden", "properties": {} },
+    { "id": "Iceland", "properties": {} },
+    { "id": "Poland", "properties": {} },
+    { "id": "Indonesia", "properties": {} },
+    { "id": "Greece", "properties": {} },
+    { "id": "Saudi Arabia", "properties": {} },
+    { "id": "New Zealand", "properties": {} },
+    { "id": "India", "properties": {} },
+    { "id": "Estonia", "properties": {} },
+    { "id": "United Kingdom", "properties": {} },
+    { "id": "Brazil", "properties": {} },
+    { "id": "Lithuania", "properties": {} },
+    { "id": "Australia", "properties": {} },
+    { "id": "Hungary", "properties": {} },
+    { "id": "Norway", "properties": {} },
+    { "id": "Portugal", "properties": {} },
+    { "id": "United States", "properties": {} },
+    { "id": "Argentina", "properties": {} },
+    { "id": "Denmark", "properties": {} },
+    { "id": "Latvia", "properties": {} },
+    { "id": "Türkiye", "properties": {} },
+    { "id": "Costa Rica", "properties": {} },
+    { "id": "South Africa", "properties": {} },
+    { "id": "Luxembourg", "properties": {} },
+    { "id": "Ireland", "properties": {} },
+    { "id": "China (People's Republic of)", "properties": {} },
+    { "id": "Slovak Republic", "properties": {} },
+    { "id": "Germany", "properties": {} },
+    { "id": "Chile", "properties": {} },
+    { "id": "Spain", "properties": {} },
+    { "id": "Colombia", "properties": {} },
+    { "id": "Italy", "properties": {} }
+  ],
+  "edges": [
+    {
+      "first_node": "Australia",
+      "second_node": "Austria",
+      "properties": { "label": "1357238215", "weight": 1357238215 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Belgium",
+      "properties": { "label": "3624899148", "weight": 3624899148 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Canada",
+      "properties": { "label": "3754134762", "weight": 3754134762 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Czechia",
+      "properties": { "label": "695936823", "weight": 695936823 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Denmark",
+      "properties": { "label": "1116283074", "weight": 1116283074 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Finland",
+      "properties": { "label": "466271888", "weight": 466271888 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "France",
+      "properties": { "label": "5598459749", "weight": 5598459749 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Germany",
+      "properties": { "label": "2719143318", "weight": 2719143318 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Greece",
+      "properties": { "label": "34379127", "weight": 34379127 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Hungary",
+      "properties": { "label": "30175882", "weight": 30175882 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Iceland",
+      "properties": { "label": "258784429", "weight": 258784429 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Ireland",
+      "properties": { "label": "1758930580", "weight": 1758930580 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Italy",
+      "properties": { "label": "870317646", "weight": 870317646 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Japan",
+      "properties": { "label": "68984030545", "weight": 68984030545 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Korea",
+      "properties": { "label": "24884210381", "weight": 24884210381 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Luxembourg",
+      "properties": { "label": "982542", "weight": 982542 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Mexico",
+      "properties": { "label": "1445858818", "weight": 1445858818 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Netherlands",
+      "properties": { "label": "5582949557", "weight": 5582949557 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "New Zealand",
+      "properties": { "label": "14460583910", "weight": 14460583910 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Norway",
+      "properties": { "label": "370393602", "weight": 370393602 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Poland",
+      "properties": { "label": "1962237254", "weight": 1962237254 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Portugal",
+      "properties": { "label": "277799555", "weight": 277799555 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "3016247", "weight": 3016247 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Spain",
+      "properties": { "label": "2596251355", "weight": 2596251355 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Sweden",
+      "properties": { "label": "2274365588", "weight": 2274365588 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Switzerland",
+      "properties": { "label": "4397116339", "weight": 4397116339 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Türkiye",
+      "properties": { "label": "1993864621", "weight": 1993864621 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "United Kingdom",
+      "properties": { "label": "7517254534", "weight": 7517254534 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "United States",
+      "properties": { "label": "42571751180", "weight": 42571751180 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Argentina",
+      "properties": { "label": "546119312", "weight": 546119312 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Brazil",
+      "properties": { "label": "1826202867", "weight": 1826202867 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Chile",
+      "properties": { "label": "937792138", "weight": 937792138 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "244619506630", "weight": 244619506630 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Estonia",
+      "properties": { "label": "97162879", "weight": 97162879 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "India",
+      "properties": { "label": "39350724611", "weight": 39350724611 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Indonesia",
+      "properties": { "label": "7681800542", "weight": 7681800542 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Israel",
+      "properties": { "label": "164710424", "weight": 164710424 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Russia",
+      "properties": { "label": "155598679", "weight": 155598679 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "1483756750", "weight": 1483756750 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Slovenia",
+      "properties": { "label": "137178410", "weight": 137178410 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "South Africa",
+      "properties": { "label": "1229250045", "weight": 1229250045 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Latvia",
+      "properties": { "label": "91485185", "weight": 91485185 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Lithuania",
+      "properties": { "label": "11219730", "weight": 11219730 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Colombia",
+      "properties": { "label": "132821259", "weight": 132821259 }
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Costa Rica",
+      "properties": { "label": "2405099", "weight": 2405099 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Belgium",
+      "properties": { "label": "6785753066", "weight": 6785753066 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Canada",
+      "properties": { "label": "2001143101", "weight": 2001143101 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Czechia",
+      "properties": { "label": "18078380220", "weight": 18078380220 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Denmark",
+      "properties": { "label": "2008710249", "weight": 2008710249 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Finland",
+      "properties": { "label": "924931081", "weight": 924931081 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "France",
+      "properties": { "label": "13841823510", "weight": 13841823510 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Germany",
+      "properties": { "label": "61502534371", "weight": 61502534371 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Greece",
+      "properties": { "label": "772373657", "weight": 772373657 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Hungary",
+      "properties": { "label": "8099849684", "weight": 8099849684 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Iceland",
+      "properties": { "label": "58981744", "weight": 58981744 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Ireland",
+      "properties": { "label": "949786289", "weight": 949786289 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Italy",
+      "properties": { "label": "13965835417", "weight": 13965835417 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Japan",
+      "properties": { "label": "3121114490", "weight": 3121114490 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Korea",
+      "properties": { "label": "1844286068", "weight": 1844286068 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Luxembourg",
+      "properties": { "label": "236275051", "weight": 236275051 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Mexico",
+      "properties": { "label": "1906912147", "weight": 1906912147 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Netherlands",
+      "properties": { "label": "3966864080", "weight": 3966864080 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "New Zealand",
+      "properties": { "label": "248986887", "weight": 248986887 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Norway",
+      "properties": { "label": "1153990520", "weight": 1153990520 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Portugal",
+      "properties": { "label": "1026690066", "weight": 1026690066 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "13843408222", "weight": 13843408222 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Spain",
+      "properties": { "label": "5881360417", "weight": 5881360417 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Sweden",
+      "properties": { "label": "4036459826", "weight": 4036459826 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Switzerland",
+      "properties": { "label": "21740182916", "weight": 21740182916 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Türkiye",
+      "properties": { "label": "3680828356", "weight": 3680828356 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "United Kingdom",
+      "properties": { "label": "8501467913", "weight": 8501467913 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "United States",
+      "properties": { "label": "18037270639", "weight": 18037270639 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Argentina",
+      "properties": { "label": "170039091", "weight": 170039091 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Brazil",
+      "properties": { "label": "1180690155", "weight": 1180690155 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Chile",
+      "properties": { "label": "306612325", "weight": 306612325 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "5456210113", "weight": 5456210113 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Estonia",
+      "properties": { "label": "339475799", "weight": 339475799 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "India",
+      "properties": { "label": "2104648701", "weight": 2104648701 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Indonesia",
+      "properties": { "label": "264519447", "weight": 264519447 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Israel",
+      "properties": { "label": "585906197", "weight": 585906197 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Russia",
+      "properties": { "label": "1947122201", "weight": 1947122201 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "517279166", "weight": 517279166 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Slovenia",
+      "properties": { "label": "5076984590", "weight": 5076984590 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "South Africa",
+      "properties": { "label": "713101407", "weight": 713101407 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Poland",
+      "properties": { "label": "15756385576", "weight": 15756385576 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Latvia",
+      "properties": { "label": "216377084", "weight": 216377084 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Lithuania",
+      "properties": { "label": "436636906", "weight": 436636906 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Costa Rica",
+      "properties": { "label": "24081919", "weight": 24081919 }
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Colombia",
+      "properties": { "label": "139019730", "weight": 139019730 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Italy",
+      "properties": { "label": "17474849841", "weight": 17474849841 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Switzerland",
+      "properties": { "label": "10630911003", "weight": 10630911003 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Canada",
+      "properties": { "label": "6762591230", "weight": 6762591230 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Czechia",
+      "properties": { "label": "9233340041", "weight": 9233340041 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Denmark",
+      "properties": { "label": "5107346623", "weight": 5107346623 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Finland",
+      "properties": { "label": "1834548005", "weight": 1834548005 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "France",
+      "properties": { "label": "106158237155", "weight": 106158237155 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Germany",
+      "properties": { "label": "93109365265", "weight": 93109365265 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Greece",
+      "properties": { "label": "1829964860", "weight": 1829964860 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Hungary",
+      "properties": { "label": "2454586481", "weight": 2454586481 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Poland",
+      "properties": { "label": "18690068646", "weight": 18690068646 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Iceland",
+      "properties": { "label": "143393402", "weight": 143393402 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Ireland",
+      "properties": { "label": "21208783758", "weight": 21208783758 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Japan",
+      "properties": { "label": "17013021037", "weight": 17013021037 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Korea",
+      "properties": { "label": "3047647725", "weight": 3047647725 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Mexico",
+      "properties": { "label": "3507826838", "weight": 3507826838 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Netherlands",
+      "properties": { "label": "65274281086", "weight": 65274281086 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "New Zealand",
+      "properties": { "label": "441271573", "weight": 441271573 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Norway",
+      "properties": { "label": "23136048380", "weight": 23136048380 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Portugal",
+      "properties": { "label": "4363692498", "weight": 4363692498 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "1272332042", "weight": 1272332042 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Spain",
+      "properties": { "label": "36325855216", "weight": 36325855216 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Sweden",
+      "properties": { "label": "13900027762", "weight": 13900027762 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Luxembourg",
+      "properties": { "label": "7969497573", "weight": 7969497573 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Türkiye",
+      "properties": { "label": "10262561046", "weight": 10262561046 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "United Kingdom",
+      "properties": { "label": "45507765871", "weight": 45507765871 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "United States",
+      "properties": { "label": "66891323497", "weight": 66891323497 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Argentina",
+      "properties": { "label": "552506343", "weight": 552506343 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Brazil",
+      "properties": { "label": "3023625832", "weight": 3023625832 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Chile",
+      "properties": { "label": "1392825448", "weight": 1392825448 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "6360773338", "weight": 6360773338 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Estonia",
+      "properties": { "label": "742155452", "weight": 742155452 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "India",
+      "properties": { "label": "6978627735", "weight": 6978627735 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Indonesia",
+      "properties": { "label": "720616446", "weight": 720616446 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Israel",
+      "properties": { "label": "2349589777", "weight": 2349589777 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Russia",
+      "properties": { "label": "2788923580", "weight": 2788923580 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "2220162673", "weight": 2220162673 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Slovenia",
+      "properties": { "label": "707846468", "weight": 707846468 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "South Africa",
+      "properties": { "label": "1588751822", "weight": 1588751822 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Latvia",
+      "properties": { "label": "391626952", "weight": 391626952 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Lithuania",
+      "properties": { "label": "872061476", "weight": 872061476 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Colombia",
+      "properties": { "label": "167182698", "weight": 167182698 }
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Costa Rica",
+      "properties": { "label": "110172673", "weight": 110172673 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Czechia",
+      "properties": { "label": "596168600", "weight": 596168600 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Denmark",
+      "properties": { "label": "871572252", "weight": 871572252 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Finland",
+      "properties": { "label": "511984480", "weight": 511984480 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "France",
+      "properties": { "label": "7324867397", "weight": 7324867397 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Germany",
+      "properties": { "label": "5543456943", "weight": 5543456943 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Greece",
+      "properties": { "label": "114835779", "weight": 114835779 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Hungary",
+      "properties": { "label": "76837990", "weight": 76837990 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Iceland",
+      "properties": { "label": "69623443", "weight": 69623443 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Ireland",
+      "properties": { "label": "4261169422", "weight": 4261169422 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Italy",
+      "properties": { "label": "2180153840", "weight": 2180153840 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Japan",
+      "properties": { "label": "22452734407", "weight": 22452734407 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Korea",
+      "properties": { "label": "6677625435", "weight": 6677625435 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Luxembourg",
+      "properties": { "label": "43997571", "weight": 43997571 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Mexico",
+      "properties": { "label": "22413495239", "weight": 22413495239 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Netherlands",
+      "properties": { "label": "4978306492", "weight": 4978306492 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "New Zealand",
+      "properties": { "label": "1089408341", "weight": 1089408341 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "United States",
+      "properties": { "label": "814353551698", "weight": 814353551698 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Norway",
+      "properties": { "label": "4116227839", "weight": 4116227839 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Poland",
+      "properties": { "label": "2445487610", "weight": 2445487610 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Portugal",
+      "properties": { "label": "834331503", "weight": 834331503 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "39115956", "weight": 39115956 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Spain",
+      "properties": { "label": "4806913187", "weight": 4806913187 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Sweden",
+      "properties": { "label": "1995029131", "weight": 1995029131 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Switzerland",
+      "properties": { "label": "2781180404", "weight": 2781180404 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Türkiye",
+      "properties": { "label": "2872229814", "weight": 2872229814 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "United Kingdom",
+      "properties": { "label": "21839326534", "weight": 21839326534 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Argentina",
+      "properties": { "label": "250134412", "weight": 250134412 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Brazil",
+      "properties": { "label": "3127771949", "weight": 3127771949 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Chile",
+      "properties": { "label": "2293962714", "weight": 2293962714 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "21934237962", "weight": 21934237962 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "India",
+      "properties": { "label": "4086567881", "weight": 4086567881 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Indonesia",
+      "properties": { "label": "2493736920", "weight": 2493736920 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Israel",
+      "properties": { "label": "427050966", "weight": 427050966 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Russia",
+      "properties": { "label": "167978117", "weight": 167978117 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "990869501", "weight": 990869501 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Slovenia",
+      "properties": { "label": "91225504", "weight": 91225504 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "South Africa",
+      "properties": { "label": "363317903", "weight": 363317903 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Estonia",
+      "properties": { "label": "128721544", "weight": 128721544 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Latvia",
+      "properties": { "label": "351821753", "weight": 351821753 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Lithuania",
+      "properties": { "label": "130384100", "weight": 130384100 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Costa Rica",
+      "properties": { "label": "492220166", "weight": 492220166 }
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Colombia",
+      "properties": { "label": "1447760813", "weight": 1447760813 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Denmark",
+      "properties": { "label": "3154333374", "weight": 3154333374 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Finland",
+      "properties": { "label": "1187301517", "weight": 1187301517 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "France",
+      "properties": { "label": "17311676192", "weight": 17311676192 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Germany",
+      "properties": { "label": "78748713409", "weight": 78748713409 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Greece",
+      "properties": { "label": "615863539", "weight": 615863539 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Hungary",
+      "properties": { "label": "8209295686", "weight": 8209295686 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Iceland",
+      "properties": { "label": "81828129", "weight": 81828129 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Ireland",
+      "properties": { "label": "3014501135", "weight": 3014501135 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Italy",
+      "properties": { "label": "9763562979", "weight": 9763562979 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Japan",
+      "properties": { "label": "3582267820", "weight": 3582267820 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Korea",
+      "properties": { "label": "540762711", "weight": 540762711 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Luxembourg",
+      "properties": { "label": "351586982", "weight": 351586982 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Mexico",
+      "properties": { "label": "1200340197", "weight": 1200340197 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Netherlands",
+      "properties": { "label": "8604205104", "weight": 8604205104 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "New Zealand",
+      "properties": { "label": "173796500", "weight": 173796500 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Norway",
+      "properties": { "label": "1478354276", "weight": 1478354276 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Poland",
+      "properties": { "label": "39539165557", "weight": 39539165557 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Portugal",
+      "properties": { "label": "1538171465", "weight": 1538171465 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "19995840614", "weight": 19995840614 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Spain",
+      "properties": { "label": "9810504252", "weight": 9810504252 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Sweden",
+      "properties": { "label": "5626888729", "weight": 5626888729 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Switzerland",
+      "properties": { "label": "3523618093", "weight": 3523618093 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Türkiye",
+      "properties": { "label": "4542572509", "weight": 4542572509 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "United Kingdom",
+      "properties": { "label": "11306512153", "weight": 11306512153 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "United States",
+      "properties": { "label": "9821222291", "weight": 9821222291 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Argentina",
+      "properties": { "label": "72666266", "weight": 72666266 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Brazil",
+      "properties": { "label": "416115967", "weight": 416115967 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Chile",
+      "properties": { "label": "150217487", "weight": 150217487 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "8107415703", "weight": 8107415703 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Estonia",
+      "properties": { "label": "558644372", "weight": 558644372 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "India",
+      "properties": { "label": "1064619203", "weight": 1064619203 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Indonesia",
+      "properties": { "label": "108156651", "weight": 108156651 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Israel",
+      "properties": { "label": "1150036659", "weight": 1150036659 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Russia",
+      "properties": { "label": "1551670221", "weight": 1551670221 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "599723991", "weight": 599723991 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Slovenia",
+      "properties": { "label": "1195691100", "weight": 1195691100 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "South Africa",
+      "properties": { "label": "1350066613", "weight": 1350066613 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Latvia",
+      "properties": { "label": "382134225", "weight": 382134225 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Lithuania",
+      "properties": { "label": "1025441829", "weight": 1025441829 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Costa Rica",
+      "properties": { "label": "13183211", "weight": 13183211 }
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Colombia",
+      "properties": { "label": "86100732", "weight": 86100732 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Finland",
+      "properties": { "label": "2429738891", "weight": 2429738891 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "France",
+      "properties": { "label": "8426831108", "weight": 8426831108 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Mexico",
+      "properties": { "label": "612136903", "weight": 612136903 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Germany",
+      "properties": { "label": "18676034256", "weight": 18676034256 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Greece",
+      "properties": { "label": "475578195", "weight": 475578195 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Hungary",
+      "properties": { "label": "617941503", "weight": 617941503 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Iceland",
+      "properties": { "label": "727613991", "weight": 727613991 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Italy",
+      "properties": { "label": "2566122900", "weight": 2566122900 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Japan",
+      "properties": { "label": "1958440131", "weight": 1958440131 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Korea",
+      "properties": { "label": "884003474", "weight": 884003474 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Luxembourg",
+      "properties": { "label": "114840621", "weight": 114840621 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Netherlands",
+      "properties": { "label": "7172923928", "weight": 7172923928 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "New Zealand",
+      "properties": { "label": "287504773", "weight": 287504773 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Norway",
+      "properties": { "label": "13835139350", "weight": 13835139350 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Poland",
+      "properties": { "label": "10348504275", "weight": 10348504275 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Ireland",
+      "properties": { "label": "1377947922", "weight": 1377947922 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Portugal",
+      "properties": { "label": "999637904", "weight": 999637904 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "338508967", "weight": 338508967 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Spain",
+      "properties": { "label": "4939272461", "weight": 4939272461 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Sweden",
+      "properties": { "label": "25894655059", "weight": 25894655059 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Switzerland",
+      "properties": { "label": "1046373630", "weight": 1046373630 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Türkiye",
+      "properties": { "label": "2545591863", "weight": 2545591863 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "United Kingdom",
+      "properties": { "label": "8722460040", "weight": 8722460040 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "United States",
+      "properties": { "label": "10628714232", "weight": 10628714232 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Argentina",
+      "properties": { "label": "137378823", "weight": 137378823 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Brazil",
+      "properties": { "label": "526658686", "weight": 526658686 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Chile",
+      "properties": { "label": "291716600", "weight": 291716600 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "3656266805", "weight": 3656266805 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Estonia",
+      "properties": { "label": "1036266866", "weight": 1036266866 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "India",
+      "properties": { "label": "679027718", "weight": 679027718 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Indonesia",
+      "properties": { "label": "139236649", "weight": 139236649 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Israel",
+      "properties": { "label": "247908975", "weight": 247908975 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Russia",
+      "properties": { "label": "333013203", "weight": 333013203 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "454045327", "weight": 454045327 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Slovenia",
+      "properties": { "label": "142195157", "weight": 142195157 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "South Africa",
+      "properties": { "label": "231452883", "weight": 231452883 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Latvia",
+      "properties": { "label": "407984701", "weight": 407984701 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Lithuania",
+      "properties": { "label": "1598612468", "weight": 1598612468 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Colombia",
+      "properties": { "label": "80193090", "weight": 80193090 }
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Costa Rica",
+      "properties": { "label": "28412580", "weight": 28412580 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Finland",
+      "properties": { "label": "1916686547", "weight": 1916686547 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Germany",
+      "properties": { "label": "84526932138", "weight": 84526932138 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Greece",
+      "properties": { "label": "3909561238", "weight": 3909561238 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Hungary",
+      "properties": { "label": "4635048109", "weight": 4635048109 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Iceland",
+      "properties": { "label": "316944793", "weight": 316944793 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Ireland",
+      "properties": { "label": "6837075770", "weight": 6837075770 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Italy",
+      "properties": { "label": "56583360802", "weight": 56583360802 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Japan",
+      "properties": { "label": "6703684808", "weight": 6703684808 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Korea",
+      "properties": { "label": "6166475573", "weight": 6166475573 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Luxembourg",
+      "properties": { "label": "3383595738", "weight": 3383595738 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Mexico",
+      "properties": { "label": "3772701419", "weight": 3772701419 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Netherlands",
+      "properties": { "label": "25759996547", "weight": 25759996547 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "New Zealand",
+      "properties": { "label": "560543756", "weight": 560543756 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Norway",
+      "properties": { "label": "1863179159", "weight": 1863179159 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Poland",
+      "properties": { "label": "14590123390", "weight": 14590123390 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Portugal",
+      "properties": { "label": "6986276671", "weight": 6986276671 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "3421512120", "weight": 3421512120 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Spain",
+      "properties": { "label": "46717561042", "weight": 46717561042 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Sweden",
+      "properties": { "label": "6546634301", "weight": 6546634301 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Switzerland",
+      "properties": { "label": "21666985283", "weight": 21666985283 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Türkiye",
+      "properties": { "label": "9712728704", "weight": 9712728704 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "United Kingdom",
+      "properties": { "label": "35193935115", "weight": 35193935115 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "United States",
+      "properties": { "label": "49101811912", "weight": 49101811912 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Argentina",
+      "properties": { "label": "960167534", "weight": 960167534 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Brazil",
+      "properties": { "label": "9400018321", "weight": 9400018321 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Chile",
+      "properties": { "label": "1379530404", "weight": 1379530404 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "24902915678", "weight": 24902915678 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Estonia",
+      "properties": { "label": "481924317", "weight": 481924317 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "India",
+      "properties": { "label": "6199311338", "weight": 6199311338 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Indonesia",
+      "properties": { "label": "905084501", "weight": 905084501 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Israel",
+      "properties": { "label": "2192397674", "weight": 2192397674 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Russia",
+      "properties": { "label": "3304683054", "weight": 3304683054 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "4058510986", "weight": 4058510986 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Slovenia",
+      "properties": { "label": "1466592871", "weight": 1466592871 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "South Africa",
+      "properties": { "label": "3979955780", "weight": 3979955780 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Latvia",
+      "properties": { "label": "555821254", "weight": 555821254 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Lithuania",
+      "properties": { "label": "1144211206", "weight": 1144211206 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Colombia",
+      "properties": { "label": "1182277012", "weight": 1182277012 }
+    },
+    {
+      "first_node": "France",
+      "second_node": "Costa Rica",
+      "properties": { "label": "71678690", "weight": 71678690 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Greece",
+      "properties": { "label": "8801746658", "weight": 8801746658 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Australia",
+      "properties": { "label": "12574157669", "weight": 12574157669 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Austria",
+      "properties": { "label": "86368556258", "weight": 86368556258 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Belgium",
+      "properties": { "label": "63993124878", "weight": 63993124878 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Canada",
+      "properties": { "label": "13481767054", "weight": 13481767054 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Czechia",
+      "properties": { "label": "55296062147", "weight": 55296062147 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Denmark",
+      "properties": { "label": "24294184504", "weight": 24294184504 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Finland",
+      "properties": { "label": "13233700168", "weight": 13233700168 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "France",
+      "properties": { "label": "121874391843", "weight": 121874391843 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Hungary",
+      "properties": { "label": "33507515143", "weight": 33507515143 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Iceland",
+      "properties": { "label": "721496615", "weight": 721496615 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Ireland",
+      "properties": { "label": "11242158833", "weight": 11242158833 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Italy",
+      "properties": { "label": "91966830732", "weight": 91966830732 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Korea",
+      "properties": { "label": "22713348698", "weight": 22713348698 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Luxembourg",
+      "properties": { "label": "7881895020", "weight": 7881895020 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Mexico",
+      "properties": { "label": "17232393848", "weight": 17232393848 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Netherlands",
+      "properties": { "label": "114011841727", "weight": 114011841727 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "New Zealand",
+      "properties": { "label": "1969158213", "weight": 1969158213 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Norway",
+      "properties": { "label": "12053662081", "weight": 12053662081 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Poland",
+      "properties": { "label": "94393608122", "weight": 94393608122 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Portugal",
+      "properties": { "label": "11803722275", "weight": 11803722275 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "17555396454", "weight": 17555396454 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Japan",
+      "properties": { "label": "21778661984", "weight": 21778661984 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Spain",
+      "properties": { "label": "51376858171", "weight": 51376858171 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Sweden",
+      "properties": { "label": "30666907059", "weight": 30666907059 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Switzerland",
+      "properties": { "label": "76502096029", "weight": 76502096029 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Türkiye",
+      "properties": { "label": "28597080613", "weight": 28597080613 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "United Kingdom",
+      "properties": { "label": "77880004353", "weight": 77880004353 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "United States",
+      "properties": { "label": "164648498076", "weight": 164648498076 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Argentina",
+      "properties": { "label": "2674455799", "weight": 2674455799 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Brazil",
+      "properties": { "label": "13653086203", "weight": 13653086203 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Chile",
+      "properties": { "label": "2936021488", "weight": 2936021488 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "113497957220", "weight": 113497957220 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Estonia",
+      "properties": { "label": "2655995891", "weight": 2655995891 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "India",
+      "properties": { "label": "29666882661", "weight": 29666882661 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Indonesia",
+      "properties": { "label": "3134334709", "weight": 3134334709 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Israel",
+      "properties": { "label": "6336690669", "weight": 6336690669 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Russia",
+      "properties": { "label": "16116444660", "weight": 16116444660 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "7134026505", "weight": 7134026505 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Slovenia",
+      "properties": { "label": "7251190512", "weight": 7251190512 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "South Africa",
+      "properties": { "label": "18698014325", "weight": 18698014325 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Latvia",
+      "properties": { "label": "5251357954", "weight": 5251357954 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Lithuania",
+      "properties": { "label": "11925030486", "weight": 11925030486 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Costa Rica",
+      "properties": { "label": "341983576", "weight": 341983576 }
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Colombia",
+      "properties": { "label": "3074125370", "weight": 3074125370 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "New Zealand",
+      "properties": { "label": "725727", "weight": 725727 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Canada",
+      "properties": { "label": "131752239", "weight": 131752239 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Australia",
+      "properties": { "label": "35060965", "weight": 35060965 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Austria",
+      "properties": { "label": "1714692", "weight": 1714692 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Belgium",
+      "properties": { "label": "87998841", "weight": 87998841 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Czechia",
+      "properties": { "label": "7931361", "weight": 7931361 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Denmark",
+      "properties": { "label": "188605282", "weight": 188605282 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Finland",
+      "properties": { "label": "16249072", "weight": 16249072 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "France",
+      "properties": { "label": "472646104", "weight": 472646104 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Greece",
+      "properties": { "label": "13730217", "weight": 13730217 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Hungary",
+      "properties": { "label": "42705157", "weight": 42705157 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Ireland",
+      "properties": { "label": "29055839", "weight": 29055839 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Italy",
+      "properties": { "label": "42239455", "weight": 42239455 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Japan",
+      "properties": { "label": "161148643", "weight": 161148643 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Korea",
+      "properties": { "label": "18993663", "weight": 18993663 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Luxembourg",
+      "properties": { "label": "407426", "weight": 407426 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Mexico",
+      "properties": { "label": "37512026", "weight": 37512026 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Netherlands",
+      "properties": { "label": "2787924493", "weight": 2787924493 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Germany",
+      "properties": { "label": "483722400", "weight": 483722400 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Norway",
+      "properties": { "label": "391913229", "weight": 391913229 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Poland",
+      "properties": { "label": "140714581", "weight": 140714581 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Portugal",
+      "properties": { "label": "113571470", "weight": 113571470 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "13039527", "weight": 13039527 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Spain",
+      "properties": { "label": "321361478", "weight": 321361478 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Sweden",
+      "properties": { "label": "51219462", "weight": 51219462 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Switzerland",
+      "properties": { "label": "30254988", "weight": 30254988 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Türkiye",
+      "properties": { "label": "21506792", "weight": 21506792 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "United Kingdom",
+      "properties": { "label": "669799396", "weight": 669799396 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "United States",
+      "properties": { "label": "571176006", "weight": 571176006 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Brazil",
+      "properties": { "label": "27642561", "weight": 27642561 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Chile",
+      "properties": { "label": "8549725", "weight": 8549725 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "157707872", "weight": 157707872 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Estonia",
+      "properties": { "label": "3794924", "weight": 3794924 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Indonesia",
+      "properties": { "label": "2141962", "weight": 2141962 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Israel",
+      "properties": { "label": "2508106", "weight": 2508106 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "South Africa",
+      "properties": { "label": "6970645", "weight": 6970645 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Argentina",
+      "properties": { "label": "6805006", "weight": 6805006 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "India",
+      "properties": { "label": "147631125", "weight": 147631125 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Russia",
+      "properties": { "label": "31053040", "weight": 31053040 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "54038402", "weight": 54038402 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Slovenia",
+      "properties": { "label": "28650530", "weight": 28650530 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Latvia",
+      "properties": { "label": "31688607", "weight": 31688607 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Lithuania",
+      "properties": { "label": "54802127", "weight": 54802127 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Costa Rica",
+      "properties": { "label": "2907659", "weight": 2907659 }
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Colombia",
+      "properties": { "label": "34652760", "weight": 34652760 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Spain",
+      "properties": { "label": "2191724088", "weight": 2191724088 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Australia",
+      "properties": { "label": "246105089", "weight": 246105089 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Austria",
+      "properties": { "label": "477880721", "weight": 477880721 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Belgium",
+      "properties": { "label": "722174350", "weight": 722174350 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Canada",
+      "properties": { "label": "275260125", "weight": 275260125 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Czechia",
+      "properties": { "label": "426488641", "weight": 426488641 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Denmark",
+      "properties": { "label": "245123652", "weight": 245123652 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Finland",
+      "properties": { "label": "213272996", "weight": 213272996 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "France",
+      "properties": { "label": "1752528905", "weight": 1752528905 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Germany",
+      "properties": { "label": "3647990509", "weight": 3647990509 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Hungary",
+      "properties": { "label": "511297348", "weight": 511297348 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Iceland",
+      "properties": { "label": "4951855", "weight": 4951855 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Ireland",
+      "properties": { "label": "259802831", "weight": 259802831 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Italy",
+      "properties": { "label": "5951760266", "weight": 5951760266 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Japan",
+      "properties": { "label": "324754328", "weight": 324754328 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Korea",
+      "properties": { "label": "751705908", "weight": 751705908 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Luxembourg",
+      "properties": { "label": "177248612", "weight": 177248612 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Mexico",
+      "properties": { "label": "148422483", "weight": 148422483 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Netherlands",
+      "properties": { "label": "1251663264", "weight": 1251663264 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "New Zealand",
+      "properties": { "label": "33742057", "weight": 33742057 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Poland",
+      "properties": { "label": "959494177", "weight": 959494177 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Portugal",
+      "properties": { "label": "351116437", "weight": 351116437 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "202178317", "weight": 202178317 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Sweden",
+      "properties": { "label": "388127903", "weight": 388127903 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Switzerland",
+      "properties": { "label": "252229806", "weight": 252229806 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Türkiye",
+      "properties": { "label": "2626378864", "weight": 2626378864 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "United Kingdom",
+      "properties": { "label": "2252228982", "weight": 2252228982 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "United States",
+      "properties": { "label": "4502894247", "weight": 4502894247 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Argentina",
+      "properties": { "label": "16408534", "weight": 16408534 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Brazil",
+      "properties": { "label": "117089971", "weight": 117089971 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Chile",
+      "properties": { "label": "31052079", "weight": 31052079 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "424768591", "weight": 424768591 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Estonia",
+      "properties": { "label": "70105446", "weight": 70105446 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "India",
+      "properties": { "label": "245991626", "weight": 245991626 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Indonesia",
+      "properties": { "label": "71875287", "weight": 71875287 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Israel",
+      "properties": { "label": "902819309", "weight": 902819309 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Russia",
+      "properties": { "label": "162556565", "weight": 162556565 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "576878826", "weight": 576878826 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Slovenia",
+      "properties": { "label": "575263042", "weight": 575263042 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "South Africa",
+      "properties": { "label": "123158346", "weight": 123158346 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Norway",
+      "properties": { "label": "137905010", "weight": 137905010 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Latvia",
+      "properties": { "label": "91947775", "weight": 91947775 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Lithuania",
+      "properties": { "label": "136801264", "weight": 136801264 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Costa Rica",
+      "properties": { "label": "18891338", "weight": 18891338 }
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Colombia",
+      "properties": { "label": "24570168", "weight": 24570168 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Finland",
+      "properties": { "label": "336022055", "weight": 336022055 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "France",
+      "properties": { "label": "7598097995", "weight": 7598097995 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Germany",
+      "properties": { "label": "26672083040", "weight": 26672083040 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Greece",
+      "properties": { "label": "404686453", "weight": 404686453 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Hungary",
+      "properties": { "label": "459700717", "weight": 459700717 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Iceland",
+      "properties": { "label": "52379242", "weight": 52379242 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Italy",
+      "properties": { "label": "4754739207", "weight": 4754739207 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Japan",
+      "properties": { "label": "4290424564", "weight": 4290424564 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Korea",
+      "properties": { "label": "959565900", "weight": 959565900 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Luxembourg",
+      "properties": { "label": "96246160", "weight": 96246160 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Mexico",
+      "properties": { "label": "2292734479", "weight": 2292734479 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Netherlands",
+      "properties": { "label": "14833540858", "weight": 14833540858 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "New Zealand",
+      "properties": { "label": "474094761", "weight": 474094761 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Norway",
+      "properties": { "label": "420323203", "weight": 420323203 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Poland",
+      "properties": { "label": "1567875512", "weight": 1567875512 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Portugal",
+      "properties": { "label": "658005509", "weight": 658005509 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "124598011", "weight": 124598011 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Spain",
+      "properties": { "label": "2841327897", "weight": 2841327897 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Sweden",
+      "properties": { "label": "1089638199", "weight": 1089638199 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Switzerland",
+      "properties": { "label": "3452633298", "weight": 3452633298 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Türkiye",
+      "properties": { "label": "855916185", "weight": 855916185 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "United Kingdom",
+      "properties": { "label": "23236453672", "weight": 23236453672 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "United States",
+      "properties": { "label": "66521760069", "weight": 66521760069 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Argentina",
+      "properties": { "label": "138429606", "weight": 138429606 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Brazil",
+      "properties": { "label": "1183122359", "weight": 1183122359 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Chile",
+      "properties": { "label": "116644175", "weight": 116644175 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "31871254186", "weight": 31871254186 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Estonia",
+      "properties": { "label": "34307194", "weight": 34307194 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "India",
+      "properties": { "label": "3099056677", "weight": 3099056677 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Indonesia",
+      "properties": { "label": "96049043", "weight": 96049043 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Israel",
+      "properties": { "label": "1108011878", "weight": 1108011878 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Russia",
+      "properties": { "label": "583514369", "weight": 583514369 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "900909518", "weight": 900909518 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Slovenia",
+      "properties": { "label": "214385205", "weight": 214385205 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "South Africa",
+      "properties": { "label": "451661929", "weight": 451661929 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Latvia",
+      "properties": { "label": "148363888", "weight": 148363888 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Lithuania",
+      "properties": { "label": "225292828", "weight": 225292828 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Colombia",
+      "properties": { "label": "157930475", "weight": 157930475 }
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Costa Rica",
+      "properties": { "label": "126246464", "weight": 126246464 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Finland",
+      "properties": { "label": "477391244", "weight": 477391244 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "France",
+      "properties": { "label": "6419330926", "weight": 6419330926 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Germany",
+      "properties": { "label": "19556420339", "weight": 19556420339 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Greece",
+      "properties": { "label": "339206214", "weight": 339206214 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Hungary",
+      "properties": { "label": "1510309859", "weight": 1510309859 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Iceland",
+      "properties": { "label": "70517777", "weight": 70517777 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Ireland",
+      "properties": { "label": "2502537472", "weight": 2502537472 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Italy",
+      "properties": { "label": "5312472865", "weight": 5312472865 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Korea",
+      "properties": { "label": "54223500168", "weight": 54223500168 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Luxembourg",
+      "properties": { "label": "663225767", "weight": 663225767 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Mexico",
+      "properties": { "label": "10905344063", "weight": 10905344063 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Netherlands",
+      "properties": { "label": "12362450456", "weight": 12362450456 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "New Zealand",
+      "properties": { "label": "3002463967", "weight": 3002463967 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Norway",
+      "properties": { "label": "987366161", "weight": 987366161 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Poland",
+      "properties": { "label": "4153565285", "weight": 4153565285 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Portugal",
+      "properties": { "label": "635262094", "weight": 635262094 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "138484753", "weight": 138484753 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Spain",
+      "properties": { "label": "2686276865", "weight": 2686276865 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Sweden",
+      "properties": { "label": "1431679420", "weight": 1431679420 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Switzerland",
+      "properties": { "label": "4133461070", "weight": 4133461070 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Türkiye",
+      "properties": { "label": "3213724339", "weight": 3213724339 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "United Kingdom",
+      "properties": { "label": "11037952155", "weight": 11037952155 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "United States",
+      "properties": { "label": "139432891634", "weight": 139432891634 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Argentina",
+      "properties": { "label": "944999112", "weight": 944999112 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Brazil",
+      "properties": { "label": "10083191097", "weight": 10083191097 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Chile",
+      "properties": { "label": "2267395847", "weight": 2267395847 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "144618032835", "weight": 144618032835 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Estonia",
+      "properties": { "label": "223553443", "weight": 223553443 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "India",
+      "properties": { "label": "13860892295", "weight": 13860892295 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Indonesia",
+      "properties": { "label": "15027583952", "weight": 15027583952 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Israel",
+      "properties": { "label": "1476258526", "weight": 1476258526 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Russia",
+      "properties": { "label": "4675075929", "weight": 4675075929 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "5047729918", "weight": 5047729918 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Slovenia",
+      "properties": { "label": "206231746", "weight": 206231746 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "South Africa",
+      "properties": { "label": "2359087586", "weight": 2359087586 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Latvia",
+      "properties": { "label": "61675997", "weight": 61675997 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Lithuania",
+      "properties": { "label": "184137842", "weight": 184137842 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Colombia",
+      "properties": { "label": "1356027969", "weight": 1356027969 }
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Costa Rica",
+      "properties": { "label": "459906418", "weight": 459906418 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Finland",
+      "properties": { "label": "86133202", "weight": 86133202 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "France",
+      "properties": { "label": "1246479135", "weight": 1246479135 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Germany",
+      "properties": { "label": "8245620439", "weight": 8245620439 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Greece",
+      "properties": { "label": "50785512", "weight": 50785512 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Hungary",
+      "properties": { "label": "322744121", "weight": 322744121 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Ireland",
+      "properties": { "label": "305518957", "weight": 305518957 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Italy",
+      "properties": { "label": "825963873", "weight": 825963873 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Japan",
+      "properties": { "label": "4353775459", "weight": 4353775459 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Korea",
+      "properties": { "label": "3691121202", "weight": 3691121202 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Luxembourg",
+      "properties": { "label": "2761765", "weight": 2761765 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Netherlands",
+      "properties": { "label": "2040915531", "weight": 2040915531 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "New Zealand",
+      "properties": { "label": "158157268", "weight": 158157268 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Norway",
+      "properties": { "label": "67090310", "weight": 67090310 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Poland",
+      "properties": { "label": "397275678", "weight": 397275678 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Portugal",
+      "properties": { "label": "29521960", "weight": 29521960 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "51298554", "weight": 51298554 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Spain",
+      "properties": { "label": "1775610143", "weight": 1775610143 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Sweden",
+      "properties": { "label": "75954307", "weight": 75954307 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Switzerland",
+      "properties": { "label": "1336419969", "weight": 1336419969 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Türkiye",
+      "properties": { "label": "232668333", "weight": 232668333 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "United Kingdom",
+      "properties": { "label": "2875170530", "weight": 2875170530 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "United States",
+      "properties": { "label": "452605220722", "weight": 452605220722 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Argentina",
+      "properties": { "label": "1059300539", "weight": 1059300539 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Brazil",
+      "properties": { "label": "4276228120", "weight": 4276228120 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Chile",
+      "properties": { "label": "1720658132", "weight": 1720658132 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "10804753271", "weight": 10804753271 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "India",
+      "properties": { "label": "5138702712", "weight": 5138702712 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Indonesia",
+      "properties": { "label": "106714257", "weight": 106714257 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Israel",
+      "properties": { "label": "224360977", "weight": 224360977 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "291998375", "weight": 291998375 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Slovenia",
+      "properties": { "label": "4930326", "weight": 4930326 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "South Africa",
+      "properties": { "label": "217874378", "weight": 217874378 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Russia",
+      "properties": { "label": "2214524336", "weight": 2214524336 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Latvia",
+      "properties": { "label": "21761448", "weight": 21761448 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Lithuania",
+      "properties": { "label": "84410769", "weight": 84410769 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Colombia",
+      "properties": { "label": "3607142991", "weight": 3607142991 }
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Costa Rica",
+      "properties": { "label": "1094047259", "weight": 1094047259 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Finland",
+      "properties": { "label": "8391546", "weight": 8391546 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "France",
+      "properties": { "label": "308121978", "weight": 308121978 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Germany",
+      "properties": { "label": "562407682", "weight": 562407682 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Greece",
+      "properties": { "label": "48280076", "weight": 48280076 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Hungary",
+      "properties": { "label": "6791509", "weight": 6791509 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Iceland",
+      "properties": { "label": "1701398", "weight": 1701398 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Ireland",
+      "properties": { "label": "61113164", "weight": 61113164 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Italy",
+      "properties": { "label": "209622166", "weight": 209622166 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Japan",
+      "properties": { "label": "2738442372", "weight": 2738442372 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Korea",
+      "properties": { "label": "1751751860", "weight": 1751751860 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Mexico",
+      "properties": { "label": "337573611", "weight": 337573611 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Netherlands",
+      "properties": { "label": "702687185", "weight": 702687185 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Norway",
+      "properties": { "label": "36353356", "weight": 36353356 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Poland",
+      "properties": { "label": "84555575", "weight": 84555575 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Portugal",
+      "properties": { "label": "21976372", "weight": 21976372 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "2387049", "weight": 2387049 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Spain",
+      "properties": { "label": "100795223", "weight": 100795223 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Sweden",
+      "properties": { "label": "61529707", "weight": 61529707 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Switzerland",
+      "properties": { "label": "74438971", "weight": 74438971 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Türkiye",
+      "properties": { "label": "30996462", "weight": 30996462 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "United Kingdom",
+      "properties": { "label": "954834078", "weight": 954834078 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "United States",
+      "properties": { "label": "5141838191", "weight": 5141838191 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Argentina",
+      "properties": { "label": "18078932", "weight": 18078932 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Brazil",
+      "properties": { "label": "80104551", "weight": 80104551 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Chile",
+      "properties": { "label": "120258006", "weight": 120258006 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "13313236750", "weight": 13313236750 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Estonia",
+      "properties": { "label": "5505842", "weight": 5505842 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "India",
+      "properties": { "label": "366350329", "weight": 366350329 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Indonesia",
+      "properties": { "label": "1362910809", "weight": 1362910809 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Israel",
+      "properties": { "label": "26423239", "weight": 26423239 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Russia",
+      "properties": { "label": "54629521", "weight": 54629521 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "627652194", "weight": 627652194 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Slovenia",
+      "properties": { "label": "2889998", "weight": 2889998 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "South Africa",
+      "properties": { "label": "114679886", "weight": 114679886 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Luxembourg",
+      "properties": { "label": "6120904", "weight": 6120904 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Latvia",
+      "properties": { "label": "5888591", "weight": 5888591 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Lithuania",
+      "properties": { "label": "25555489", "weight": 25555489 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Colombia",
+      "properties": { "label": "13156153", "weight": 13156153 }
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Costa Rica",
+      "properties": { "label": "10000296", "weight": 10000296 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Finland",
+      "properties": { "label": "6223685593", "weight": 6223685593 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "France",
+      "properties": { "label": "25512417535", "weight": 25512417535 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Germany",
+      "properties": { "label": "75537919286", "weight": 75537919286 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Greece",
+      "properties": { "label": "454437165", "weight": 454437165 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Hungary",
+      "properties": { "label": "141011656", "weight": 141011656 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Iceland",
+      "properties": { "label": "1085863176", "weight": 1085863176 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Ireland",
+      "properties": { "label": "628221486", "weight": 628221486 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Italy",
+      "properties": { "label": "2392259752", "weight": 2392259752 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Japan",
+      "properties": { "label": "1001838676", "weight": 1001838676 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Korea",
+      "properties": { "label": "1659785636", "weight": 1659785636 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Luxembourg",
+      "properties": { "label": "34290988", "weight": 34290988 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Mexico",
+      "properties": { "label": "323444553", "weight": 323444553 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Netherlands",
+      "properties": { "label": "17415215672", "weight": 17415215672 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "New Zealand",
+      "properties": { "label": "49709535", "weight": 49709535 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Poland",
+      "properties": { "label": "6145557584", "weight": 6145557584 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Portugal",
+      "properties": { "label": "785472478", "weight": 785472478 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "117039432", "weight": 117039432 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Spain",
+      "properties": { "label": "2465147519", "weight": 2465147519 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Sweden",
+      "properties": { "label": "16230645604", "weight": 16230645604 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Switzerland",
+      "properties": { "label": "456093387", "weight": 456093387 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Türkiye",
+      "properties": { "label": "1156800443", "weight": 1156800443 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "United Kingdom",
+      "properties": { "label": "57987775721", "weight": 57987775721 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "United States",
+      "properties": { "label": "5217277930", "weight": 5217277930 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Argentina",
+      "properties": { "label": "120961771", "weight": 120961771 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Brazil",
+      "properties": { "label": "944493603", "weight": 944493603 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Chile",
+      "properties": { "label": "189297090", "weight": 189297090 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "13476309349", "weight": 13476309349 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Estonia",
+      "properties": { "label": "242552603", "weight": 242552603 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "India",
+      "properties": { "label": "1574347752", "weight": 1574347752 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Indonesia",
+      "properties": { "label": "274774789", "weight": 274774789 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Israel",
+      "properties": { "label": "273988899", "weight": 273988899 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Russia",
+      "properties": { "label": "240974250", "weight": 240974250 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "164492167", "weight": 164492167 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Slovenia",
+      "properties": { "label": "35792366", "weight": 35792366 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "South Africa",
+      "properties": { "label": "103534131", "weight": 103534131 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Latvia",
+      "properties": { "label": "601429037", "weight": 601429037 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Lithuania",
+      "properties": { "label": "4657420597", "weight": 4657420597 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Costa Rica",
+      "properties": { "label": "34315635", "weight": 34315635 }
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Colombia",
+      "properties": { "label": "457490801", "weight": 457490801 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Finland",
+      "properties": { "label": "3065297667", "weight": 3065297667 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "France",
+      "properties": { "label": "19696314734", "weight": 19696314734 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Germany",
+      "properties": { "label": "95223163412", "weight": 95223163412 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Greece",
+      "properties": { "label": "1471964424", "weight": 1471964424 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Hungary",
+      "properties": { "label": "8825076446", "weight": 8825076446 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Iceland",
+      "properties": { "label": "170535728", "weight": 170535728 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Ireland",
+      "properties": { "label": "1419985830", "weight": 1419985830 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Italy",
+      "properties": { "label": "15771242451", "weight": 15771242451 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Japan",
+      "properties": { "label": "783930013", "weight": 783930013 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Korea",
+      "properties": { "label": "851183728", "weight": 851183728 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Luxembourg",
+      "properties": { "label": "610895962", "weight": 610895962 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Mexico",
+      "properties": { "label": "2158864586", "weight": 2158864586 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Netherlands",
+      "properties": { "label": "15918462720", "weight": 15918462720 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "New Zealand",
+      "properties": { "label": "178419032", "weight": 178419032 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Norway",
+      "properties": { "label": "3353240205", "weight": 3353240205 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Portugal",
+      "properties": { "label": "1940615332", "weight": 1940615332 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Chile",
+      "properties": { "label": "193577359", "weight": 193577359 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "9968419869", "weight": 9968419869 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Spain",
+      "properties": { "label": "8859783174", "weight": 8859783174 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Sweden",
+      "properties": { "label": "9195616249", "weight": 9195616249 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Switzerland",
+      "properties": { "label": "3638895719", "weight": 3638895719 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Türkiye",
+      "properties": { "label": "3630741529", "weight": 3630741529 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "United Kingdom",
+      "properties": { "label": "16490586997", "weight": 16490586997 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "United States",
+      "properties": { "label": "10033013094", "weight": 10033013094 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Argentina",
+      "properties": { "label": "90734097", "weight": 90734097 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Brazil",
+      "properties": { "label": "1794265957", "weight": 1794265957 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "2992350800", "weight": 2992350800 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Estonia",
+      "properties": { "label": "1758581016", "weight": 1758581016 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "India",
+      "properties": { "label": "2746068811", "weight": 2746068811 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Indonesia",
+      "properties": { "label": "142653723", "weight": 142653723 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Russia",
+      "properties": { "label": "4818832007", "weight": 4818832007 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "860353148", "weight": 860353148 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Slovenia",
+      "properties": { "label": "1695542911", "weight": 1695542911 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "South Africa",
+      "properties": { "label": "776496866", "weight": 776496866 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Israel",
+      "properties": { "label": "1041362358", "weight": 1041362358 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Latvia",
+      "properties": { "label": "2407384155", "weight": 2407384155 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Lithuania",
+      "properties": { "label": "12455725044", "weight": 12455725044 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Colombia",
+      "properties": { "label": "1049728766", "weight": 1049728766 }
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Costa Rica",
+      "properties": { "label": "27976280", "weight": 27976280 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Finland",
+      "properties": { "label": "513801124", "weight": 513801124 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "France",
+      "properties": { "label": "10225331694", "weight": 10225331694 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Germany",
+      "properties": { "label": "8961838524", "weight": 8961838524 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Greece",
+      "properties": { "label": "269017495", "weight": 269017495 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Hungary",
+      "properties": { "label": "404500278", "weight": 404500278 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Iceland",
+      "properties": { "label": "17822107", "weight": 17822107 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Ireland",
+      "properties": { "label": "676691476", "weight": 676691476 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Italy",
+      "properties": { "label": "3686641472", "weight": 3686641472 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Japan",
+      "properties": { "label": "259726326", "weight": 259726326 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Korea",
+      "properties": { "label": "202829704", "weight": 202829704 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Luxembourg",
+      "properties": { "label": "143391987", "weight": 143391987 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Mexico",
+      "properties": { "label": "391481617", "weight": 391481617 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Netherlands",
+      "properties": { "label": "3322465329", "weight": 3322465329 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "New Zealand",
+      "properties": { "label": "57622353", "weight": 57622353 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Norway",
+      "properties": { "label": "329231541", "weight": 329231541 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Poland",
+      "properties": { "label": "1125441046", "weight": 1125441046 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "547256946", "weight": 547256946 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Spain",
+      "properties": { "label": "21466521402", "weight": 21466521402 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Sweden",
+      "properties": { "label": "1048325883", "weight": 1048325883 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Switzerland",
+      "properties": { "label": "773506484", "weight": 773506484 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Türkiye",
+      "properties": { "label": "936958872", "weight": 936958872 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "United Kingdom",
+      "properties": { "label": "4031806541", "weight": 4031806541 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "United States",
+      "properties": { "label": "5340926483", "weight": 5340926483 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Argentina",
+      "properties": { "label": "140733612", "weight": 140733612 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Brazil",
+      "properties": { "label": "961639443", "weight": 961639443 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Chile",
+      "properties": { "label": "102567591", "weight": 102567591 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "662222922", "weight": 662222922 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Estonia",
+      "properties": { "label": "75386663", "weight": 75386663 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "India",
+      "properties": { "label": "364790046", "weight": 364790046 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Indonesia",
+      "properties": { "label": "18782973", "weight": 18782973 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Israel",
+      "properties": { "label": "464957061", "weight": 464957061 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Russia",
+      "properties": { "label": "93666295", "weight": 93666295 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "192023026", "weight": 192023026 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Slovenia",
+      "properties": { "label": "87521515", "weight": 87521515 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "South Africa",
+      "properties": { "label": "297656493", "weight": 297656493 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Latvia",
+      "properties": { "label": "64567536", "weight": 64567536 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Lithuania",
+      "properties": { "label": "401981569", "weight": 401981569 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Costa Rica",
+      "properties": { "label": "82797806", "weight": 82797806 }
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Colombia",
+      "properties": { "label": "68790689", "weight": 68790689 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Finland",
+      "properties": { "label": "336752730", "weight": 336752730 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Australia",
+      "properties": { "label": "346000338", "weight": 346000338 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Belgium",
+      "properties": { "label": "1494775027", "weight": 1494775027 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Canada",
+      "properties": { "label": "346245232", "weight": 346245232 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Czechia",
+      "properties": { "label": "12965603607", "weight": 12965603607 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Denmark",
+      "properties": { "label": "717630924", "weight": 717630924 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "France",
+      "properties": { "label": "6346341272", "weight": 6346341272 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Germany",
+      "properties": { "label": "22734736571", "weight": 22734736571 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Greece",
+      "properties": { "label": "322517497", "weight": 322517497 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Hungary",
+      "properties": { "label": "9396928485", "weight": 9396928485 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Iceland",
+      "properties": { "label": "52897660", "weight": 52897660 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Ireland",
+      "properties": { "label": "238562106", "weight": 238562106 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Italy",
+      "properties": { "label": "5195943039", "weight": 5195943039 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Japan",
+      "properties": { "label": "285586141", "weight": 285586141 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Korea",
+      "properties": { "label": "380655416", "weight": 380655416 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Luxembourg",
+      "properties": { "label": "81126818", "weight": 81126818 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Mexico",
+      "properties": { "label": "226633000", "weight": 226633000 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Netherlands",
+      "properties": { "label": "2178143920", "weight": 2178143920 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "New Zealand",
+      "properties": { "label": "75071529", "weight": 75071529 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Norway",
+      "properties": { "label": "241146393", "weight": 241146393 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Poland",
+      "properties": { "label": "8410831510", "weight": 8410831510 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Portugal",
+      "properties": { "label": "319292099", "weight": 319292099 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Spain",
+      "properties": { "label": "2474905166", "weight": 2474905166 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Sweden",
+      "properties": { "label": "1507854594", "weight": 1507854594 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Switzerland",
+      "properties": { "label": "1434561443", "weight": 1434561443 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Türkiye",
+      "properties": { "label": "923919147", "weight": 923919147 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "United Kingdom",
+      "properties": { "label": "4088995395", "weight": 4088995395 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "United States",
+      "properties": { "label": "3636383034", "weight": 3636383034 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Argentina",
+      "properties": { "label": "75428985", "weight": 75428985 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Brazil",
+      "properties": { "label": "201339630", "weight": 201339630 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Chile",
+      "properties": { "label": "94892060", "weight": 94892060 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "2739875381", "weight": 2739875381 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Estonia",
+      "properties": { "label": "179554640", "weight": 179554640 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "India",
+      "properties": { "label": "238374628", "weight": 238374628 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Indonesia",
+      "properties": { "label": "20329992", "weight": 20329992 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Israel",
+      "properties": { "label": "290687087", "weight": 290687087 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Russia",
+      "properties": { "label": "571971999", "weight": 571971999 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "212826571", "weight": 212826571 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Slovenia",
+      "properties": { "label": "885499480", "weight": 885499480 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "South Africa",
+      "properties": { "label": "489115884", "weight": 489115884 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Lithuania",
+      "properties": { "label": "268539836", "weight": 268539836 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Latvia",
+      "properties": { "label": "295334866", "weight": 295334866 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Costa Rica",
+      "properties": { "label": "11784998", "weight": 11784998 }
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Colombia",
+      "properties": { "label": "78219891", "weight": 78219891 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Finland",
+      "properties": { "label": "1552436686", "weight": 1552436686 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "France",
+      "properties": { "label": "61224295418", "weight": 61224295418 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Germany",
+      "properties": { "label": "38386284667", "weight": 38386284667 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Greece",
+      "properties": { "label": "3142264634", "weight": 3142264634 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Hungary",
+      "properties": { "label": "2088524227", "weight": 2088524227 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Iceland",
+      "properties": { "label": "85338217", "weight": 85338217 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Ireland",
+      "properties": { "label": "2984303873", "weight": 2984303873 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Italy",
+      "properties": { "label": "32224837669", "weight": 32224837669 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Japan",
+      "properties": { "label": "3356412732", "weight": 3356412732 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Korea",
+      "properties": { "label": "2215779925", "weight": 2215779925 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Luxembourg",
+      "properties": { "label": "360076308", "weight": 360076308 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Mexico",
+      "properties": { "label": "5394689160", "weight": 5394689160 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Netherlands",
+      "properties": { "label": "15400359310", "weight": 15400359310 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "New Zealand",
+      "properties": { "label": "303337919", "weight": 303337919 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Norway",
+      "properties": { "label": "1607663091", "weight": 1607663091 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Poland",
+      "properties": { "label": "8634611017", "weight": 8634611017 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Portugal",
+      "properties": { "label": "32880438849", "weight": 32880438849 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "1547551391", "weight": 1547551391 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Sweden",
+      "properties": { "label": "3594220166", "weight": 3594220166 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Switzerland",
+      "properties": { "label": "7150329261", "weight": 7150329261 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Türkiye",
+      "properties": { "label": "7117597186", "weight": 7117597186 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "United Kingdom",
+      "properties": { "label": "22059145744", "weight": 22059145744 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "United States",
+      "properties": { "label": "19801330546", "weight": 19801330546 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Argentina",
+      "properties": { "label": "1276770615", "weight": 1276770615 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Brazil",
+      "properties": { "label": "7746460917", "weight": 7746460917 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Chile",
+      "properties": { "label": "1893524746", "weight": 1893524746 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "18024149519", "weight": 18024149519 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Estonia",
+      "properties": { "label": "339228583", "weight": 339228583 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "India",
+      "properties": { "label": "4708986045", "weight": 4708986045 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Indonesia",
+      "properties": { "label": "461802990", "weight": 461802990 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Israel",
+      "properties": { "label": "2283557949", "weight": 2283557949 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Russia",
+      "properties": { "label": "1365421371", "weight": 1365421371 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "3100772163", "weight": 3100772163 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Slovenia",
+      "properties": { "label": "662615379", "weight": 662615379 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "South Africa",
+      "properties": { "label": "1633693772", "weight": 1633693772 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Latvia",
+      "properties": { "label": "318237012", "weight": 318237012 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Lithuania",
+      "properties": { "label": "1287801689", "weight": 1287801689 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Colombia",
+      "properties": { "label": "1544458535", "weight": 1544458535 }
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Costa Rica",
+      "properties": { "label": "338929093", "weight": 338929093 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Finland",
+      "properties": { "label": "14412583960", "weight": 14412583960 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "France",
+      "properties": { "label": "7759924038", "weight": 7759924038 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Germany",
+      "properties": { "label": "19761862644", "weight": 19761862644 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Greece",
+      "properties": { "label": "565485923", "weight": 565485923 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "New Zealand",
+      "properties": { "label": "206380354", "weight": 206380354 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Hungary",
+      "properties": { "label": "836309969", "weight": 836309969 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Iceland",
+      "properties": { "label": "491533025", "weight": 491533025 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Ireland",
+      "properties": { "label": "812346058", "weight": 812346058 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Italy",
+      "properties": { "label": "5829415151", "weight": 5829415151 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Japan",
+      "properties": { "label": "2712646405", "weight": 2712646405 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Korea",
+      "properties": { "label": "1674487958", "weight": 1674487958 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Luxembourg",
+      "properties": { "label": "141863517", "weight": 141863517 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Mexico",
+      "properties": { "label": "914230053", "weight": 914230053 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Netherlands",
+      "properties": { "label": "9477062275", "weight": 9477062275 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Norway",
+      "properties": { "label": "21234499026", "weight": 21234499026 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Poland",
+      "properties": { "label": "7941728266", "weight": 7941728266 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Portugal",
+      "properties": { "label": "954221316", "weight": 954221316 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "537130550", "weight": 537130550 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Switzerland",
+      "properties": { "label": "1714332668", "weight": 1714332668 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Türkiye",
+      "properties": { "label": "1958611632", "weight": 1958611632 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "United Kingdom",
+      "properties": { "label": "10761385214", "weight": 10761385214 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "United States",
+      "properties": { "label": "17580211067", "weight": 17580211067 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Argentina",
+      "properties": { "label": "214757370", "weight": 214757370 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Brazil",
+      "properties": { "label": "1397107938", "weight": 1397107938 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Chile",
+      "properties": { "label": "413021633", "weight": 413021633 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "7004195617", "weight": 7004195617 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Estonia",
+      "properties": { "label": "1719976038", "weight": 1719976038 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Spain",
+      "properties": { "label": "3781536997", "weight": 3781536997 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "India",
+      "properties": { "label": "1575462968", "weight": 1575462968 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Indonesia",
+      "properties": { "label": "420077259", "weight": 420077259 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Israel",
+      "properties": { "label": "380564811", "weight": 380564811 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Russia",
+      "properties": { "label": "1039943677", "weight": 1039943677 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "1270960500", "weight": 1270960500 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Slovenia",
+      "properties": { "label": "251842225", "weight": 251842225 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "South Africa",
+      "properties": { "label": "1991911489", "weight": 1991911489 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Latvia",
+      "properties": { "label": "824847900", "weight": 824847900 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Lithuania",
+      "properties": { "label": "2041274235", "weight": 2041274235 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Costa Rica",
+      "properties": { "label": "43524783", "weight": 43524783 }
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Colombia",
+      "properties": { "label": "105155333", "weight": 105155333 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "94053592715", "weight": 94053592715 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Canada",
+      "properties": { "label": "4290737551", "weight": 4290737551 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Czechia",
+      "properties": { "label": "2170689286", "weight": 2170689286 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Denmark",
+      "properties": { "label": "1238959489", "weight": 1238959489 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Finland",
+      "properties": { "label": "715056357", "weight": 715056357 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "France",
+      "properties": { "label": "21232977949", "weight": 21232977949 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Germany",
+      "properties": { "label": "53543457268", "weight": 53543457268 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Greece",
+      "properties": { "label": "771859490", "weight": 771859490 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Hungary",
+      "properties": { "label": "1213455516", "weight": 1213455516 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Iceland",
+      "properties": { "label": "78342103", "weight": 78342103 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Ireland",
+      "properties": { "label": "1396393330", "weight": 1396393330 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Italy",
+      "properties": { "label": "25746589358", "weight": 25746589358 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Japan",
+      "properties": { "label": "9830832599", "weight": 9830832599 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Korea",
+      "properties": { "label": "3770266075", "weight": 3770266075 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Luxembourg",
+      "properties": { "label": "369109247", "weight": 369109247 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Mexico",
+      "properties": { "label": "1700771489", "weight": 1700771489 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Netherlands",
+      "properties": { "label": "7186727136", "weight": 7186727136 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "New Zealand",
+      "properties": { "label": "247656539", "weight": 247656539 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Norway",
+      "properties": { "label": "750700068", "weight": 750700068 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Poland",
+      "properties": { "label": "3079234757", "weight": 3079234757 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Portugal",
+      "properties": { "label": "1144730268", "weight": 1144730268 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "767389746", "weight": 767389746 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Spain",
+      "properties": { "label": "10681909834", "weight": 10681909834 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Sweden",
+      "properties": { "label": "1898878498", "weight": 1898878498 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Türkiye",
+      "properties": { "label": "12648928236", "weight": 12648928236 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "United Kingdom",
+      "properties": { "label": "13333366453", "weight": 13333366453 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Russia",
+      "properties": { "label": "3168338015", "weight": 3168338015 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "United States",
+      "properties": { "label": "65183602315", "weight": 65183602315 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Argentina",
+      "properties": { "label": "770335156", "weight": 770335156 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Brazil",
+      "properties": { "label": "5055773784", "weight": 5055773784 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Chile",
+      "properties": { "label": "370609917", "weight": 370609917 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Estonia",
+      "properties": { "label": "292719930", "weight": 292719930 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "India",
+      "properties": { "label": "16243408950", "weight": 16243408950 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Indonesia",
+      "properties": { "label": "428997324", "weight": 428997324 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Israel",
+      "properties": { "label": "1295868239", "weight": 1295868239 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "5010703171", "weight": 5010703171 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Slovenia",
+      "properties": { "label": "12035241697", "weight": 12035241697 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "South Africa",
+      "properties": { "label": "646310242", "weight": 646310242 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Latvia",
+      "properties": { "label": "278131399", "weight": 278131399 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Lithuania",
+      "properties": { "label": "169868500", "weight": 169868500 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Colombia",
+      "properties": { "label": "456165844", "weight": 456165844 }
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Costa Rica",
+      "properties": { "label": "237815459", "weight": 237815459 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Finland",
+      "properties": { "label": "708921747", "weight": 708921747 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "France",
+      "properties": { "label": "9548249114", "weight": 9548249114 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Germany",
+      "properties": { "label": "21143619031", "weight": 21143619031 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Greece",
+      "properties": { "label": "3302409667", "weight": 3302409667 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Hungary",
+      "properties": { "label": "1597043893", "weight": 1597043893 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Iceland",
+      "properties": { "label": "48853201", "weight": 48853201 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Ireland",
+      "properties": { "label": "1085172903", "weight": 1085172903 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Italy",
+      "properties": { "label": "12397862880", "weight": 12397862880 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Japan",
+      "properties": { "label": "664195159", "weight": 664195159 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Korea",
+      "properties": { "label": "1051911106", "weight": 1051911106 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Luxembourg",
+      "properties": { "label": "129315198", "weight": 129315198 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Mexico",
+      "properties": { "label": "1080913197", "weight": 1080913197 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Netherlands",
+      "properties": { "label": "8026959294", "weight": 8026959294 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "New Zealand",
+      "properties": { "label": "118785193", "weight": 118785193 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Norway",
+      "properties": { "label": "744019175", "weight": 744019175 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Poland",
+      "properties": { "label": "5417894828", "weight": 5417894828 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Portugal",
+      "properties": { "label": "1498202458", "weight": 1498202458 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "760066980", "weight": 760066980 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Spain",
+      "properties": { "label": "9650355628", "weight": 9650355628 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Sweden",
+      "properties": { "label": "1700945845", "weight": 1700945845 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Switzerland",
+      "properties": { "label": "1341053030", "weight": 1341053030 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "United Kingdom",
+      "properties": { "label": "13005265690", "weight": 13005265690 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "United States",
+      "properties": { "label": "16887870317", "weight": 16887870317 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Argentina",
+      "properties": { "label": "329198805", "weight": 329198805 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Brazil",
+      "properties": { "label": "999801604", "weight": 999801604 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Chile",
+      "properties": { "label": "511273430", "weight": 511273430 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "7801482722", "weight": 7801482722 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Estonia",
+      "properties": { "label": "195334671", "weight": 195334671 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "India",
+      "properties": { "label": "1637413766", "weight": 1637413766 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Indonesia",
+      "properties": { "label": "367314486", "weight": 367314486 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Israel",
+      "properties": { "label": "7032526223", "weight": 7032526223 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Russia",
+      "properties": { "label": "9342870706", "weight": 9342870706 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "1046510110", "weight": 1046510110 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Slovenia",
+      "properties": { "label": "1771784065", "weight": 1771784065 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "South Africa",
+      "properties": { "label": "3532968427", "weight": 3532968427 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Latvia",
+      "properties": { "label": "670642395", "weight": 670642395 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Lithuania",
+      "properties": { "label": "559239017", "weight": 559239017 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Costa Rica",
+      "properties": { "label": "102206692", "weight": 102206692 }
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Colombia",
+      "properties": { "label": "2468135670", "weight": 2468135670 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Finland",
+      "properties": { "label": "1802896051", "weight": 1802896051 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "France",
+      "properties": { "label": "30619193281", "weight": 30619193281 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Germany",
+      "properties": { "label": "41434385979", "weight": 41434385979 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Greece",
+      "properties": { "label": "1095390365", "weight": 1095390365 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Hungary",
+      "properties": { "label": "1499204078", "weight": 1499204078 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Iceland",
+      "properties": { "label": "459942035", "weight": 459942035 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Ireland",
+      "properties": { "label": "31762396090", "weight": 31762396090 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Italy",
+      "properties": { "label": "11317992989", "weight": 11317992989 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Japan",
+      "properties": { "label": "7241501848", "weight": 7241501848 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Korea",
+      "properties": { "label": "6146522745", "weight": 6146522745 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Luxembourg",
+      "properties": { "label": "750466995", "weight": 750466995 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Mexico",
+      "properties": { "label": "1639046524", "weight": 1639046524 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Netherlands",
+      "properties": { "label": "44276289022", "weight": 44276289022 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "New Zealand",
+      "properties": { "label": "1079395863", "weight": 1079395863 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Norway",
+      "properties": { "label": "4329358497", "weight": 4329358497 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Poland",
+      "properties": { "label": "7406155927", "weight": 7406155927 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Portugal",
+      "properties": { "label": "1581307030", "weight": 1581307030 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "1399506911", "weight": 1399506911 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Spain",
+      "properties": { "label": "12013475816", "weight": 12013475816 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Sweden",
+      "properties": { "label": "7133152907", "weight": 7133152907 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Switzerland",
+      "properties": { "label": "34529013871", "weight": 34529013871 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Türkiye",
+      "properties": { "label": "7964620326", "weight": 7964620326 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "United States",
+      "properties": { "label": "64391642348", "weight": 64391642348 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Argentina",
+      "properties": { "label": "643136924", "weight": 643136924 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Brazil",
+      "properties": { "label": "3098957180", "weight": 3098957180 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Chile",
+      "properties": { "label": "569210719", "weight": 569210719 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "56465287164", "weight": 56465287164 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Estonia",
+      "properties": { "label": "376621591", "weight": 376621591 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "India",
+      "properties": { "label": "10064606414", "weight": 10064606414 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Indonesia",
+      "properties": { "label": "879192831", "weight": 879192831 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Israel",
+      "properties": { "label": "2102746007", "weight": 2102746007 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Russia",
+      "properties": { "label": "1307885301", "weight": 1307885301 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "4460404002", "weight": 4460404002 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Slovenia",
+      "properties": { "label": "305185712", "weight": 305185712 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "South Africa",
+      "properties": { "label": "2095300405", "weight": 2095300405 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Latvia",
+      "properties": { "label": "408645192", "weight": 408645192 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Lithuania",
+      "properties": { "label": "2894379942", "weight": 2894379942 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Costa Rica",
+      "properties": { "label": "95895956", "weight": 95895956 }
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Colombia",
+      "properties": { "label": "783625687", "weight": 783625687 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Finland",
+      "properties": { "label": "2650651454", "weight": 2650651454 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "France",
+      "properties": { "label": "46928790273", "weight": 46928790273 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Germany",
+      "properties": { "label": "72549705243", "weight": 72549705243 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Hungary",
+      "properties": { "label": "2871363791", "weight": 2871363791 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Iceland",
+      "properties": { "label": "651312440", "weight": 651312440 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Ireland",
+      "properties": { "label": "15955712860", "weight": 15955712860 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Italy",
+      "properties": { "label": "27410694458", "weight": 27410694458 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Korea",
+      "properties": { "label": "71469488662", "weight": 71469488662 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Luxembourg",
+      "properties": { "label": "1669086908", "weight": 1669086908 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Mexico",
+      "properties": { "label": "324377768936", "weight": 324377768936 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Netherlands",
+      "properties": { "label": "72876622269", "weight": 72876622269 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "New Zealand",
+      "properties": { "label": "4173846529", "weight": 4173846529 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Norway",
+      "properties": { "label": "4704651289", "weight": 4704651289 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Poland",
+      "properties": { "label": "11311755641", "weight": 11311755641 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Portugal",
+      "properties": { "label": "2783028478", "weight": 2783028478 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "375795835", "weight": 375795835 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Japan",
+      "properties": { "label": "80304526177", "weight": 80304526177 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Spain",
+      "properties": { "label": "26479691606", "weight": 26479691606 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Sweden",
+      "properties": { "label": "7667380043", "weight": 7667380043 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Switzerland",
+      "properties": { "label": "36895589286", "weight": 36895589286 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Türkiye",
+      "properties": { "label": "14993006402", "weight": 14993006402 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "United Kingdom",
+      "properties": { "label": "77261013672", "weight": 77261013672 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Argentina",
+      "properties": { "label": "12850390086", "weight": 12850390086 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Brazil",
+      "properties": { "label": "53577707161", "weight": 53577707161 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Chile",
+      "properties": { "label": "23327985466", "weight": 23327985466 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "153837022415", "weight": 153837022415 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Estonia",
+      "properties": { "label": "383068124", "weight": 383068124 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "India",
+      "properties": { "label": "47332140044", "weight": 47332140044 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Indonesia",
+      "properties": { "label": "9986092498", "weight": 9986092498 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Israel",
+      "properties": { "label": "14232759951", "weight": 14232759951 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Russia",
+      "properties": { "label": "1715079989", "weight": 1715079989 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "11564777994", "weight": 11564777994 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Slovenia",
+      "properties": { "label": "394218602", "weight": 394218602 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "South Africa",
+      "properties": { "label": "14709678895", "weight": 14709678895 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Latvia",
+      "properties": { "label": "667695728", "weight": 667695728 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Lithuania",
+      "properties": { "label": "2492643626", "weight": 2492643626 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Costa Rica",
+      "properties": { "label": "9109416727", "weight": 9109416727 }
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Colombia",
+      "properties": { "label": "19401277843", "weight": 19401277843 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Finland",
+      "properties": { "label": "72847978", "weight": 72847978 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "France",
+      "properties": { "label": "1021792995", "weight": 1021792995 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Germany",
+      "properties": { "label": "908240842", "weight": 908240842 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Greece",
+      "properties": { "label": "47866101", "weight": 47866101 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Iceland",
+      "properties": { "label": "2909777", "weight": 2909777 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Ireland",
+      "properties": { "label": "62786822", "weight": 62786822 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Italy",
+      "properties": { "label": "666258535", "weight": 666258535 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Japan",
+      "properties": { "label": "7491878047", "weight": 7491878047 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Korea",
+      "properties": { "label": "6053745911", "weight": 6053745911 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Mexico",
+      "properties": { "label": "1757166702", "weight": 1757166702 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Netherlands",
+      "properties": { "label": "1921253541", "weight": 1921253541 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "New Zealand",
+      "properties": { "label": "76977336", "weight": 76977336 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Norway",
+      "properties": { "label": "58984717", "weight": 58984717 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Poland",
+      "properties": { "label": "90852834", "weight": 90852834 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Portugal",
+      "properties": { "label": "49324738", "weight": 49324738 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Spain",
+      "properties": { "label": "1369139865", "weight": 1369139865 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Sweden",
+      "properties": { "label": "108151000", "weight": 108151000 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Switzerland",
+      "properties": { "label": "904967160", "weight": 904967160 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Türkiye",
+      "properties": { "label": "174841928", "weight": 174841928 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "United Kingdom",
+      "properties": { "label": "636101028", "weight": 636101028 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "United States",
+      "properties": { "label": "13614338189", "weight": 13614338189 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Argentina",
+      "properties": { "label": "913494677", "weight": 913494677 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Brazil",
+      "properties": { "label": "4528543715", "weight": 4528543715 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "82910445190", "weight": 82910445190 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Estonia",
+      "properties": { "label": "10731830", "weight": 10731830 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "India",
+      "properties": { "label": "2695718006", "weight": 2695718006 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Indonesia",
+      "properties": { "label": "199228710", "weight": 199228710 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Israel",
+      "properties": { "label": "113492557", "weight": 113492557 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Russia",
+      "properties": { "label": "463257856", "weight": 463257856 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "99948994", "weight": 99948994 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "South Africa",
+      "properties": { "label": "193993308", "weight": 193993308 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Hungary",
+      "properties": { "label": "81655895", "weight": 81655895 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Luxembourg",
+      "properties": { "label": "17115781", "weight": 17115781 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Slovenia",
+      "properties": { "label": "27188105", "weight": 27188105 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Latvia",
+      "properties": { "label": "9029702", "weight": 9029702 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Lithuania",
+      "properties": { "label": "47571792", "weight": 47571792 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Costa Rica",
+      "properties": { "label": "297219710", "weight": 297219710 }
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Colombia",
+      "properties": { "label": "928560801", "weight": 928560801 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Finland",
+      "properties": { "label": "3262190500", "weight": 3262190500 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Mexico",
+      "properties": { "label": "97999187", "weight": 97999187 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "France",
+      "properties": { "label": "423148226", "weight": 423148226 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Germany",
+      "properties": { "label": "1297606005", "weight": 1297606005 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Greece",
+      "properties": { "label": "144691734", "weight": 144691734 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Hungary",
+      "properties": { "label": "64982731", "weight": 64982731 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Iceland",
+      "properties": { "label": "53390088", "weight": 53390088 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Ireland",
+      "properties": { "label": "24896374", "weight": 24896374 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Italy",
+      "properties": { "label": "269703425", "weight": 269703425 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Japan",
+      "properties": { "label": "161883246", "weight": 161883246 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Korea",
+      "properties": { "label": "53502005", "weight": 53502005 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Luxembourg",
+      "properties": { "label": "3409281", "weight": 3409281 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Netherlands",
+      "properties": { "label": "899122753", "weight": 899122753 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "New Zealand",
+      "properties": { "label": "8666542", "weight": 8666542 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Norway",
+      "properties": { "label": "792751390", "weight": 792751390 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Poland",
+      "properties": { "label": "622394593", "weight": 622394593 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Portugal",
+      "properties": { "label": "35858247", "weight": 35858247 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "45294407", "weight": 45294407 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Spain",
+      "properties": { "label": "172840290", "weight": 172840290 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Sweden",
+      "properties": { "label": "2076565827", "weight": 2076565827 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Switzerland",
+      "properties": { "label": "281657677", "weight": 281657677 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Türkiye",
+      "properties": { "label": "242667704", "weight": 242667704 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "United Kingdom",
+      "properties": { "label": "511321140", "weight": 511321140 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "United States",
+      "properties": { "label": "1264504609", "weight": 1264504609 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Argentina",
+      "properties": { "label": "38884680", "weight": 38884680 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Brazil",
+      "properties": { "label": "101134491", "weight": 101134491 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Chile",
+      "properties": { "label": "8618788", "weight": 8618788 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "227628598", "weight": 227628598 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "India",
+      "properties": { "label": "132407618", "weight": 132407618 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Indonesia",
+      "properties": { "label": "3882621", "weight": 3882621 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Israel",
+      "properties": { "label": "87563731", "weight": 87563731 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Russia",
+      "properties": { "label": "1415600357", "weight": 1415600357 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "56513589", "weight": 56513589 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Slovenia",
+      "properties": { "label": "26195859", "weight": 26195859 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "South Africa",
+      "properties": { "label": "40617941", "weight": 40617941 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Latvia",
+      "properties": { "label": "5729774052", "weight": 5729774052 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Lithuania",
+      "properties": { "label": "3209529881", "weight": 3209529881 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Colombia",
+      "properties": { "label": "4459008", "weight": 4459008 }
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Costa Rica",
+      "properties": { "label": "6637796", "weight": 6637796 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Korea",
+      "properties": { "label": "162621428186", "weight": 162621428186 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Argentina",
+      "properties": { "label": "12769006874", "weight": 12769006874 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Brazil",
+      "properties": { "label": "109522043335", "weight": 109522043335 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Greece",
+      "properties": { "label": "12988405082", "weight": 12988405082 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Poland",
+      "properties": { "label": "38163112891", "weight": 38163112891 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "United States",
+      "properties": { "label": "582756110047", "weight": 582756110047 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Estonia",
+      "properties": { "label": "946569700", "weight": 946569700 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Latvia",
+      "properties": { "label": "1247886173", "weight": 1247886173 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Austria",
+      "properties": { "label": "5118761046", "weight": 5118761046 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Mexico",
+      "properties": { "label": "77534943659", "weight": 77534943659 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "4435772395", "weight": 4435772395 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Finland",
+      "properties": { "label": "4552942148", "weight": 4552942148 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Russia",
+      "properties": { "label": "114148970877", "weight": 114148970877 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Japan",
+      "properties": { "label": "172927435952", "weight": 172927435952 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Costa Rica",
+      "properties": { "label": "2368609459", "weight": 2368609459 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Canada",
+      "properties": { "label": "53704892083", "weight": 53704892083 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Lithuania",
+      "properties": { "label": "3878404341", "weight": 3878404341 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Iceland",
+      "properties": { "label": "311157987", "weight": 311157987 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "New Zealand",
+      "properties": { "label": "9175428209", "weight": 9175428209 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Sweden",
+      "properties": { "label": "11396090159", "weight": 11396090159 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Belgium",
+      "properties": { "label": "35635134056", "weight": 35635134056 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Germany",
+      "properties": { "label": "116226631561", "weight": 116226631561 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Portugal",
+      "properties": { "label": "5978101967", "weight": 5978101967 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Denmark",
+      "properties": { "label": "10191600679", "weight": 10191600679 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Italy",
+      "properties": { "label": "50908035554", "weight": 50908035554 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Slovenia",
+      "properties": { "label": "589501890", "weight": 589501890 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "78045604752", "weight": 78045604752 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Hungary",
+      "properties": { "label": "5049297343", "weight": 5049297343 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "South Africa",
+      "properties": { "label": "24196441517", "weight": 24196441517 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "France",
+      "properties": { "label": "46143668124", "weight": 46143668124 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Colombia",
+      "properties": { "label": "7042164112", "weight": 7042164112 }
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Israel",
+      "properties": { "label": "8966863637", "weight": 8966863637 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Netherlands",
+      "properties": { "label": "6026749211", "weight": 6026749211 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Spain",
+      "properties": { "label": "1400464677", "weight": 1400464677 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Austria",
+      "properties": { "label": "45606261", "weight": 45606261 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Ireland",
+      "properties": { "label": "162330359", "weight": 162330359 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Indonesia",
+      "properties": { "label": "1238065673", "weight": 1238065673 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "11697052096", "weight": 11697052096 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Poland",
+      "properties": { "label": "488320655", "weight": 488320655 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Korea",
+      "properties": { "label": "1161565321", "weight": 1161565321 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Greece",
+      "properties": { "label": "90607413", "weight": 90607413 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "4539119546", "weight": 4539119546 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Norway",
+      "properties": { "label": "206712414", "weight": 206712414 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Russia",
+      "properties": { "label": "281090280", "weight": 281090280 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Japan",
+      "properties": { "label": "8552575005", "weight": 8552575005 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Canada",
+      "properties": { "label": "454812734", "weight": 454812734 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Switzerland",
+      "properties": { "label": "468203305", "weight": 468203305 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Mexico",
+      "properties": { "label": "355708930", "weight": 355708930 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Australia",
+      "properties": { "label": "835860705", "weight": 835860705 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Finland",
+      "properties": { "label": "115311444", "weight": 115311444 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "India",
+      "properties": { "label": "5262678106", "weight": 5262678106 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Chile",
+      "properties": { "label": "64666059", "weight": 64666059 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Latvia",
+      "properties": { "label": "1643480", "weight": 1643480 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Portugal",
+      "properties": { "label": "212382002", "weight": 212382002 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Denmark",
+      "properties": { "label": "358924803", "weight": 358924803 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "United Kingdom",
+      "properties": { "label": "6348749716", "weight": 6348749716 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Costa Rica",
+      "properties": { "label": "10245546", "weight": 10245546 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Belgium",
+      "properties": { "label": "3937881102", "weight": 3937881102 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Luxembourg",
+      "properties": { "label": "20525127", "weight": 20525127 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Colombia",
+      "properties": { "label": "47323963", "weight": 47323963 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Hungary",
+      "properties": { "label": "425446695", "weight": 425446695 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Israel",
+      "properties": { "label": "238376442", "weight": 238376442 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Slovenia",
+      "properties": { "label": "135197686", "weight": 135197686 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "New Zealand",
+      "properties": { "label": "81007449", "weight": 81007449 }
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Italy",
+      "properties": { "label": "1751609118", "weight": 1751609118 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Brazil",
+      "properties": { "label": "19281167255", "weight": 19281167255 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Netherlands",
+      "properties": { "label": "5907832585", "weight": 5907832585 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Argentina",
+      "properties": { "label": "1202172179", "weight": 1202172179 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Estonia",
+      "properties": { "label": "72760192", "weight": 72760192 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Finland",
+      "properties": { "label": "465667973", "weight": 465667973 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "United States",
+      "properties": { "label": "80327233975", "weight": 80327233975 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Korea",
+      "properties": { "label": "20682970137", "weight": 20682970137 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "32627671676", "weight": 32627671676 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Greece",
+      "properties": { "label": "844797490", "weight": 844797490 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Canada",
+      "properties": { "label": "4258527667", "weight": 4258527667 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Costa Rica",
+      "properties": { "label": "178938120", "weight": 178938120 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Russia",
+      "properties": { "label": "40053767192", "weight": 40053767192 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Lithuania",
+      "properties": { "label": "635487088", "weight": 635487088 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Japan",
+      "properties": { "label": "5707398326", "weight": 5707398326 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Iceland",
+      "properties": { "label": "10951594", "weight": 10951594 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "United Kingdom",
+      "properties": { "label": "11226382886", "weight": 11226382886 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Denmark",
+      "properties": { "label": "949658465", "weight": 949658465 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Latvia",
+      "properties": { "label": "170396836", "weight": 170396836 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Luxembourg",
+      "properties": { "label": "35149546", "weight": 35149546 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Belgium",
+      "properties": { "label": "9745010906", "weight": 9745010906 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Sweden",
+      "properties": { "label": "1014247220", "weight": 1014247220 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Israel",
+      "properties": { "label": "7507323465", "weight": 7507323465 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "South Africa",
+      "properties": { "label": "8246455380", "weight": 8246455380 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "New Zealand",
+      "properties": { "label": "564503641", "weight": 564503641 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Colombia",
+      "properties": { "label": "2963802980", "weight": 2963802980 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "France",
+      "properties": { "label": "8065165494", "weight": 8065165494 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Hungary",
+      "properties": { "label": "322151065", "weight": 322151065 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Slovenia",
+      "properties": { "label": "302475009", "weight": 302475009 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "46227337175", "weight": 46227337175 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Türkiye",
+      "properties": { "label": "10014732093", "weight": 10014732093 }
+    },
+    {
+      "first_node": "India",
+      "second_node": "Czechia",
+      "properties": { "label": "1012144574", "weight": 1012144574 }
+    },
+    {
+      "first_node": "Argentina",
+      "second_node": "Brazil",
+      "properties": { "label": "13605439656", "weight": 13605439656 }
+    },
+    {
+      "first_node": "Argentina",
+      "second_node": "South Africa",
+      "properties": { "label": "471042168", "weight": 471042168 }
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Lithuania",
+      "properties": { "label": "32927542", "weight": 32927542 }
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Latvia",
+      "properties": { "label": "24693626", "weight": 24693626 }
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "327689471", "weight": 327689471 }
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Brazil",
+      "properties": { "label": "55253980", "weight": 55253980 }
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Brazil",
+      "properties": { "label": "5873159753", "weight": 5873159753 }
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "India",
+      "properties": { "label": "5533350260", "weight": 5533350260 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Korea",
+      "properties": { "label": "6242031435", "weight": 6242031435 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "5498564452", "weight": 5498564452 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Czechia",
+      "properties": { "label": "50059453", "weight": 50059453 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Türkiye",
+      "properties": { "label": "3551122103", "weight": 3551122103 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Netherlands",
+      "properties": { "label": "11910548765", "weight": 11910548765 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Hungary",
+      "properties": { "label": "513368502", "weight": 513368502 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Austria",
+      "properties": { "label": "109398244", "weight": 109398244 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "South Africa",
+      "properties": { "label": "3337473789", "weight": 3337473789 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Colombia",
+      "properties": { "label": "2509584555", "weight": 2509584555 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Latvia",
+      "properties": { "label": "144867700", "weight": 144867700 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Indonesia",
+      "properties": { "label": "3108388764", "weight": 3108388764 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "89718898618", "weight": 89718898618 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "34136694", "weight": 34136694 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Australia",
+      "properties": { "label": "732799213", "weight": 732799213 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "United States",
+      "properties": { "label": "38147322478", "weight": 38147322478 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Finland",
+      "properties": { "label": "637238806", "weight": 637238806 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Norway",
+      "properties": { "label": "1359103927", "weight": 1359103927 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Canada",
+      "properties": { "label": "5382041545", "weight": 5382041545 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Mexico",
+      "properties": { "label": "7055353823", "weight": 7055353823 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Germany",
+      "properties": { "label": "6267794136", "weight": 6267794136 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Chile",
+      "properties": { "label": "9114560869", "weight": 9114560869 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Sweden",
+      "properties": { "label": "790502354", "weight": 790502354 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Russia",
+      "properties": { "label": "8629991236", "weight": 8629991236 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Denmark",
+      "properties": { "label": "478805774", "weight": 478805774 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "United Kingdom",
+      "properties": { "label": "3696671832", "weight": 3696671832 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Costa Rica",
+      "properties": { "label": "542759945", "weight": 542759945 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "New Zealand",
+      "properties": { "label": "116947191", "weight": 116947191 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Belgium",
+      "properties": { "label": "4370779880", "weight": 4370779880 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Slovenia",
+      "properties": { "label": "116362486", "weight": 116362486 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Portugal",
+      "properties": { "label": "4274260860", "weight": 4274260860 }
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Israel",
+      "properties": { "label": "2216346489", "weight": 2216346489 }
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Latvia",
+      "properties": { "label": "1100010312", "weight": 1100010312 }
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "12516338240", "weight": 12516338240 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Slovenia",
+      "properties": { "label": "64625016", "weight": 64625016 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Belgium",
+      "properties": { "label": "705133117", "weight": 705133117 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Sweden",
+      "properties": { "label": "1919005178", "weight": 1919005178 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Israel",
+      "properties": { "label": "39220077", "weight": 39220077 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Italy",
+      "properties": { "label": "967527884", "weight": 967527884 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "South Africa",
+      "properties": { "label": "183792136", "weight": 183792136 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Austria",
+      "properties": { "label": "402541894", "weight": 402541894 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Colombia",
+      "properties": { "label": "2033653", "weight": 2033653 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Brazil",
+      "properties": { "label": "130153292", "weight": 130153292 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "France",
+      "properties": { "label": "1045911274", "weight": 1045911274 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Hungary",
+      "properties": { "label": "297331135", "weight": 297331135 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Argentina",
+      "properties": { "label": "12685864", "weight": 12685864 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "2219652042", "weight": 2219652042 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Netherlands",
+      "properties": { "label": "2526342471", "weight": 2526342471 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Türkiye",
+      "properties": { "label": "663170446", "weight": 663170446 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Czechia",
+      "properties": { "label": "538192512", "weight": 538192512 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Canada",
+      "properties": { "label": "135810104", "weight": 135810104 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Switzerland",
+      "properties": { "label": "321266878", "weight": 321266878 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "United States",
+      "properties": { "label": "2488962745", "weight": 2488962745 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Korea",
+      "properties": { "label": "101376569", "weight": 101376569 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Finland",
+      "properties": { "label": "834873631", "weight": 834873631 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Australia",
+      "properties": { "label": "167078698", "weight": 167078698 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Slovak Republic",
+      "properties": { "label": "217694727", "weight": 217694727 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Costa Rica",
+      "properties": { "label": "6239801", "weight": 6239801 }
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Russia",
+      "properties": { "label": "2837720035", "weight": 2837720035 }
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Latvia",
+      "properties": { "label": "12828917", "weight": 12828917 }
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "India",
+      "properties": { "label": "28556556033", "weight": 28556556033 }
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "China (People's Republic of)",
+      "properties": { "label": "77770058058", "weight": 77770058058 }
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Lithuania",
+      "properties": { "label": "21989975", "weight": 21989975 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Finland",
+      "properties": { "label": "1059296650", "weight": 1059296650 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Lithuania",
+      "properties": { "label": "8365203053", "weight": 8365203053 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Korea",
+      "properties": { "label": "46596182", "weight": 46596182 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Russia",
+      "properties": { "label": "1934613037", "weight": 1934613037 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "India",
+      "properties": { "label": "45534150", "weight": 45534150 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Chile",
+      "properties": { "label": "5971854", "weight": 5971854 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Costa Rica",
+      "properties": { "label": "1818155", "weight": 1818155 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Denmark",
+      "properties": { "label": "891482377", "weight": 891482377 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "United Kingdom",
+      "properties": { "label": "1191145944", "weight": 1191145944 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Mexico",
+      "properties": { "label": "13214183", "weight": 13214183 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Sweden",
+      "properties": { "label": "1250594291", "weight": 1250594291 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Colombia",
+      "properties": { "label": "5699027", "weight": 5699027 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Portugal",
+      "properties": { "label": "41164413", "weight": 41164413 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Hungary",
+      "properties": { "label": "102787633", "weight": 102787633 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Israel",
+      "properties": { "label": "13372482", "weight": 13372482 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Slovenia",
+      "properties": { "label": "29982506", "weight": 29982506 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "South Africa",
+      "properties": { "label": "45157196", "weight": 45157196 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "New Zealand",
+      "properties": { "label": "14933135", "weight": 14933135 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Belgium",
+      "properties": { "label": "302860077", "weight": 302860077 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Italy",
+      "properties": { "label": "337021681", "weight": 337021681 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Spain",
+      "properties": { "label": "381928401", "weight": 381928401 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Saudi Arabia",
+      "properties": { "label": "143577423", "weight": 143577423 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Austria",
+      "properties": { "label": "124796775", "weight": 124796775 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "France",
+      "properties": { "label": "468148913", "weight": 468148913 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Argentina",
+      "properties": { "label": "4498762", "weight": 4498762 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Poland",
+      "properties": { "label": "822499807", "weight": 822499807 }
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Czechia",
+      "properties": { "label": "204172577", "weight": 204172577 }
+    }
+  ]
+}

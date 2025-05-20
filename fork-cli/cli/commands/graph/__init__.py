@@ -3,5 +3,13 @@ from cli.commands.graph.remove_edge_command import RemoveEdgeCommand
 from cli.commands.graph.remove_node_command import RemoveNodeCommand
 from cli.commands.graph.add_node_command import AddNodeCommand
 from cli.commands.graph.select_representation_command import SelectRepresentationCommand
+from cli.commands.graph.generate_dot_command import GenerateDotCommand
 
-GRAPH_COMMANDS = [AddEdgeCommand(), AddNodeCommand(), SelectRepresentationCommand(), RemoveEdgeCommand(), RemoveNodeCommand()]
+GRAPH_COMMANDS = [
+    AddEdgeCommand(), 
+    AddNodeCommand(), 
+    SelectRepresentationCommand(), 
+    RemoveEdgeCommand(), 
+    RemoveNodeCommand(),
+    GenerateDotCommand()
+]
