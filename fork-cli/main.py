@@ -1,59 +1,13 @@
-from os import system
+from cli.commands.root import ROOT_COMMANDS
 
-from graph.core.graph import Graph
-from graph.representation.adjacency_list import AdjacencyList
-from graph.representation.incidency_matrix import IncidencyMatrix
-from graph.representation.adjacency_matrix import AdjacencyMatrix
+from os import path, mkdir
+from config import FORK_PATH
+from cli.commander import Commander
+from cli.context import Context
 
-graph = Graph()
+if not path.exists(FORK_PATH):
+    mkdir(FORK_PATH)
 
-print('commands:')
-print('\tadd node: n {node_id}')
-print('\tadd edge: e {node_id} {node_id}')
-print('\tsee adjace: e {node_id} {node_id}')
-print('\tsee adjacency list: al')
-print('\tsee incidency matrix: im')
-print('\tsee adjacency matrix: am')
-print('\n')
+commander = Commander(commands=ROOT_COMMANDS, context=Context())
 
-while True:
-    entry = input('insert command\n')
-
-    system('clear')
-
-    if entry.startswith('n '):
-        node = entry[2:].strip()
-        graph.add_node(node)
-
-    elif entry.startswith('e '):
-        edges = entry[2:].split(' ')
-
-        if len(edges) != 2:
-            continue
-
-        graph.add_edge(edges[0], edges[1])
-
-    elif entry == 'al':
-        print(AdjacencyList(graph))
-        print('\n')
-
-    elif entry == 'im':
-        print(IncidencyMatrix(graph))
-        print('\n')
-
-    elif entry == 'am':
-        print(AdjacencyMatrix(graph))
-        print('\n')
-
-    elif entry == 'dot':
-        dot = 'graph {\n'
-
-        for node in graph.get_nodes():
-            dot += node.node_id + ';\n'
-
-        for edge in graph.get_edges():
-            dot += f'{edge.first_node.node_id} -- {edge.second_node.node_id};\n'
-
-        dot += '}'
-
-        open('output.dot', '+w').write(dot)
+commander.run()

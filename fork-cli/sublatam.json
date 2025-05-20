@@ -1,0 +1,189 @@
+{
+  "name": "SUBLATAM",
+  "nodes": [
+    { "id": "SBJU", "properties": {} },
+    { "id": "SBRJ", "properties": {} },
+    { "id": "SBLO", "properties": {} },
+    { "id": "SBCY", "properties": {} },
+    { "id": "SBPS", "properties": {} },
+    { "id": "SBSN", "properties": {} },
+    { "id": "SBGL", "properties": {} },
+    { "id": "SBCH", "properties": {} },
+    { "id": "SBSV", "properties": {} },
+    { "id": "SBMK", "properties": {} },
+    { "id": "EGLL", "properties": {} },
+    { "id": "SBNF", "properties": {} },
+    { "id": "SBMA", "properties": {} },
+    { "id": "KBOS", "properties": {} },
+    { "id": "SBVT", "properties": {} },
+    { "id": "SBFL", "properties": {} },
+    { "id": "SBPA", "properties": {} },
+    { "id": "SBPJ", "properties": {} },
+    { "id": "LPPT", "properties": {} },
+    { "id": "KMIA", "properties": {} },
+    { "id": "SBMG", "properties": {} },
+    { "id": "SBIZ", "properties": {} },
+    { "id": "SBMQ", "properties": {} },
+    { "id": "LEBL", "properties": {} },
+    { "id": "SBCX", "properties": {} },
+    { "id": "SBBV", "properties": {} },
+    { "id": "FAOR", "properties": {} },
+    { "id": "SBJP", "properties": {} },
+    { "id": "SCEL", "properties": {} },
+    { "id": "SBJV", "properties": {} },
+    { "id": "EDDF", "properties": {} },
+    { "id": "SBJE", "properties": {} },
+    { "id": "SBCT", "properties": {} },
+    { "id": "SBJA", "properties": {} },
+    { "id": "SBPV", "properties": {} },
+    { "id": "SBEG", "properties": {} },
+
+    { "id": "SBCF", "properties": {} },
+    { "id": "SUMU", "properties": {} },
+    { "id": "SBSI", "properties": {} },
+    { "id": "LFPG", "properties": {} },
+    { "id": "SBRB", "properties": {} },
+    { "id": "KMCO", "properties": {} },
+    { "id": "KJFK", "properties": {} },
+
+    { "id": "SBVC", "properties": {} },
+    { "id": "SAEZ", "properties": {} },
+
+    { "id": "SBTE", "properties": {} },
+    { "id": "SBSR", "properties": {} },
+    { "id": "SBPL", "properties": {} },
+    { "id": "SBGO", "properties": {} },
+    { "id": "SKBO", "properties": {} },
+    { "id": "MMMX", "properties": {} },
+    { "id": "SBTC", "properties": {} },
+    { "id": "SBAR", "properties": {} },
+    { "id": "SPJC", "properties": {} },
+    { "id": "SBCG", "properties": {} },
+    { "id": "SBSL", "properties": {} },
+    { "id": "SBFI", "properties": {} },
+    { "id": "SBMO", "properties": {} },
+    { "id": "LIMC", "properties": {} },
+    { "id": "SAME", "properties": {} },
+    { "id": "SBBE", "properties": {} },
+    { "id": "SBUL", "properties": {} },
+    { "id": "SBPF", "properties": {} },
+    { "id": "LIRF", "properties": {} },
+    { "id": "SBSG", "properties": {} },
+    { "id": "KLAX", "properties": {} },
+    { "id": "SABE", "properties": {} },
+    { "id": "SBRF", "properties": {} },
+    { "id": "SBIL", "properties": {} }
+  ],
+  "edges": [
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    { "first_node": "SBCF", "second_node": "SBRJ", "properties": {} },
+    { "first_node": "SBRJ", "second_node": "SBCF", "properties": {} }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ]
+}

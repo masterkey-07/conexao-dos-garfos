@@ -3,10 +3,19 @@ from graph.core.edge import Edge
 from graph.core.node import Node
 from graph.core.graph import Graph
 from graph.error.node import WrongNodeIdError
+from graph.error.graph import GraphNameNotValidError
 
 @pytest.fixture
 def graph():
-    return Graph()
+    return Graph("test_graph")
+
+def test_error_on_empty_name():
+    with pytest.raises(GraphNameNotValidError):
+        Graph("")
+    with pytest.raises(GraphNameNotValidError):
+        Graph(None)
+    with pytest.raises(GraphNameNotValidError):
+        Graph(10)
 
 def basic_setup(graph:Graph):
     graph.add_node('A')
@@ -125,3 +134,46 @@ def test_remove_edge_nonexistent(graph:Graph):
     result = graph.remove_edge("B", "C")
     assert result is False
     assert len(graph.get_edges()) == 2
+
+def test_to_dict(graph: Graph):
+    graph = Graph("test_graph_2")
+
+    graph.add_node("A", {"color": "red"})
+    graph.add_node("B", {"color": "blue"})
+    graph.add_edge("A", "B", {"weight": 5})
+
+    graph_dict = graph.to_dict()
+
+    assert "nodes" in graph_dict
+    assert "edges" in graph_dict
+
+    assert len(graph_dict["nodes"]) == 2
+    assert len(graph_dict["edges"]) == 1
+
+    node_ids = {node["id"] for node in graph_dict["nodes"]}
+    
+    assert "A" in node_ids
+    assert "B" in node_ids
+
+    edge = graph_dict["edges"][0]
+    assert edge["first_node"] == "A"
+    assert edge["second_node"] == "B"
+    assert edge["properties"]["weight"] == 5
+
+def test_graph_from_dict():
+    graph_data = {
+        "name": "other_graph",
+        "nodes": [
+            {"id": "A", "properties": {"color": "red"}},
+            {"id": "B", "properties": {"color": "blue"}}
+        ],
+        "edges": [
+            {"first_node": "A", "second_node": "B", "properties": {"weight": 5}}
+        ]
+    }
+
+    graph = Graph("other_graph", graph_data)
+
+    graph_dict = graph.to_dict()
+
+    assert graph_dict == graph_data

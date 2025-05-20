@@ -8,7 +8,7 @@ from graph.representation.abstract_graph_representation import AbstractGraphRepr
 
 @pytest.fixture(params=[AdjacencyList, AdjacencyMatrix, IncidencyMatrix])
 def simple_representation(request):
-    g = Graph()
+    g = Graph("test_graph")
 
     g.add_node('A')
     g.add_node('B')
@@ -55,7 +55,7 @@ def test_simple_path(simple_representation: AbstractGraphRepresentation):
     assert simple_representation.simple_path("A", "A") == ["A"]
 
 def test_cycle_detection(Representation):
-    g = Graph()
+    g = Graph("test_graph_2")
 
     g.add_node("A")
     g.add_node("B")
@@ -77,7 +77,7 @@ def test_cycle_detection(Representation):
     assert set(cycle).issubset({"A", "B", "C", "D"})
 
 def test_empty_cycle_detection(Representation):
-    g = Graph()
+    g = Graph("test_graph")
 
     g.add_node("A")
     g.add_node("B")
@@ -98,7 +98,7 @@ def test_empty_cycle_detection(Representation):
     assert non_cycle is None
 
 def test_is_supergraph_and_subgraph(simple_representation, Representation):
-    supergraph = Graph()
+    supergraph = Graph("supergraph")
     supergraph.add_node("A")
     supergraph.add_node("B")
     supergraph.add_node("C")

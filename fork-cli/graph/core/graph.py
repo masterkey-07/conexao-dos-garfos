@@ -1,11 +1,34 @@
 from graph.core.edge import Edge
 from graph.core.node import Node
 from graph.utils.node_pool import NodePool
+from graph.error.graph import GraphNameNotValidError
+
 
 class Graph:
-    def __init__(self):
+    def __init__(self, name: str,data: dict = None):
+        self.name = name
         self._edges = []
         self._node_pool = NodePool()
+
+        if not isinstance(name, str) or not name:
+            raise GraphNameNotValidError()
+        
+        if len(name) == 0:
+            raise GraphNameNotValidError()
+
+        self.__process_data(data)
+
+    def __process_data(self, data: dict):
+        if data is None:
+            return
+
+        self.name = data.get("name", self.name)
+
+        for node in data.get("nodes", []):
+            self.add_node(node["id"], node.get("properties"))
+
+        for edge in data.get("edges", []):
+            self.add_edge(edge["first_node"], edge["second_node"], edge.get("properties"))
 
     def add_node(self, node_id:str, properties:dict = None):
         new_node = Node(node_id, properties)
@@ -62,3 +85,23 @@ class Graph:
                 self._edges.remove(edge)
 
         return has_remove
+    
+    def to_dict(self) -> dict:
+        nodes = [
+            {
+                "id": node.node_id,
+                "properties": node.properties
+            }
+            for node in self.get_nodes()
+        ]
+        
+        edges = [
+            {
+                "first_node": edge.first_node.node_id,
+                "second_node": edge.second_node.node_id,
+                "properties": edge.properties
+            }
+            for edge in self.get_edges()
+        ]
+        
+        return {"nodes": nodes, "edges": edges, "name": self.name}
