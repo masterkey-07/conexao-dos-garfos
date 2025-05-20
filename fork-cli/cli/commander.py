@@ -47,3 +47,5 @@ class Commander:
                 print("\nExiting.")
                 
                 break
+            except Exception as exception:
+                print("Unexpected Error:", exception)
