@@ -11,6 +11,9 @@ class Commander:
         for cmd in self.__commands.values():
             print(cmd)
 
+        print("clear - Clear console log")
+        print("exit - Exit context")
+
     def execute(self, command: str, args: list[str] = []):
         cmd = self.__commands.get(command)
         
