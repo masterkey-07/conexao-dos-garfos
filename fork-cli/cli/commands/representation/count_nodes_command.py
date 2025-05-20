@@ -12,7 +12,7 @@ class CountNodesCommand(Command):
 
         number = context.current_representation.number_of_vertices()
         
-        print(f"Number of nodes in graph '{context.current_representation.name}': {number}")
+        print(f"Number of nodes in graph '{context.current_graph.name}': {number}")
 
     def __str__(self):
         return "cn - Count the number of nodes in the current graph"
