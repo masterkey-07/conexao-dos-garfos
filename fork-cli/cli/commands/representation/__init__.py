@@ -9,13 +9,13 @@ from cli.commands.representation.has_edge_command import HasEdgeCommand
 from cli.commands.representation.has_cycle_command import HasCycleCommand
 
 REPRESENTATION_COMMANDS = [
-    DisplayRepresentationCommand(),
     CountEdgesCommand(),
     CountNodesCommand(),
-    HasSimplePathCommand(),
-    NodeDegreeCommand(),
-    NodesDegreesCommand(),
-    IsSubgraphCommand(),
+    DisplayRepresentationCommand(),
+    HasCycleCommand(),
     HasEdgeCommand(),
-    HasCycleCommand()
+    HasSimplePathCommand(),
+    IsSubgraphCommand(),
+    NodeDegreeCommand(),
+    NodesDegreesCommand()
 ]

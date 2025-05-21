@@ -9,9 +9,9 @@ from cli.commands.graph.save_graph_command import SaveGraphCommand
 GRAPH_COMMANDS = [
     AddEdgeCommand(), 
     AddNodeCommand(), 
-    SelectRepresentationCommand(), 
+    GenerateDotCommand(),
     RemoveEdgeCommand(), 
     RemoveNodeCommand(),
-    GenerateDotCommand(),
-    SaveGraphCommand()
+    SaveGraphCommand(),
+    SelectRepresentationCommand(), 
 ]
