@@ -16,7 +16,7 @@ class NodesDegreesCommand(Command):
             return
 
         print("Degrees of all nodes:")
-        for node_id, degree in degrees.items():
+        for node_id, degree in degrees:
             print(f"Node '{node_id}': {degree}")
 
     def __str__(self):
