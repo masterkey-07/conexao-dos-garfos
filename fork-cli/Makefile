@@ -1,7 +1,19 @@
 APP_NAME=fork
 ENTRY=main.py
+VENV_DIR=.venv
 
 all: build
+
+setup:
+	@if [ ! -d "$(VENV_DIR)" ]; then \
+		echo "Creating virtual environment..."; \
+		python3 -m venv $(VENV_DIR); \
+	else \
+		echo "Virtual environment already exists."; \
+	fi
+
+	@echo "Installing requirements..."
+	$(VENV_DIR)/bin/pip install -r requirements.txt
 
 run:
 	@echo "Running project..."
@@ -27,4 +39,4 @@ clean:
 	@echo "Cleaning build artifacts..."
 	rm -rf build dist __pycache__ *.spec
 
-.PHONY: all clean build install
+.PHONY: all clean build install setup uninstall run test
