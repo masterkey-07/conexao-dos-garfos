@@ -6,7 +6,7 @@ class SaveGraphCommand(Command):
         return "sgv"
 
     def execute(self, context, args):
-        if not hasattr(context, "current_project") or context.current_current_project is None:
+        if not hasattr(context, "current_project") or context.current_project is None:
             print("No project selected. Please select a project first.")
             return
 
