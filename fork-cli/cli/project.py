@@ -8,7 +8,7 @@ class Project:
         self.project_name = project_name
         self.folder_path = os.path.abspath(os.path.join(FORK_PATH, project_name))
 
-        self.graphs = {}  # key: filename, value: Graph instance
+        self.graphs = {}  
 
         self._load_graphs()
 
@@ -21,7 +21,6 @@ class Project:
                 file_path = os.path.join(self.folder_path, filename)
                 with open(file_path, "r") as f:
                     data = json.load(f)
-                    # Use filename (without .json) as graph name
                     graph_name = os.path.splitext(filename)[0]
                     self.graphs[filename.replace(".json", "")] = Graph(name=graph_name, data=data)
 

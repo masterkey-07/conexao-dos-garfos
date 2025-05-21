@@ -5,7 +5,6 @@ class Command(ABC):
     @property
     @abstractmethod
     def symbol(self) -> str:
-        """The command symbol, e.g., 'cp' for create project."""
         pass
 
     @abstractmethod

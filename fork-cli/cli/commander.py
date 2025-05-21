@@ -48,8 +48,6 @@ class Commander:
                 else:
                     self.execute(cmd_symbol, args)
             except (KeyboardInterrupt, EOFError):
-                print("\nExiting.")
-                
                 break
             except Exception as exception:
                 print("Unexpected Error:", exception)
