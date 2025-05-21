@@ -19,6 +19,10 @@ install: build
 	@echo "Installing binary to /usr/local/bin/ (requires sudo)"
 	sudo cp dist/$(APP_NAME) /usr/local/bin/$(APP_NAME)
 
+uninstall:
+	@echo "Uninstalling binary from /usr/local/bin/ (requires sudo)"
+	sudo rm /usr/local/bin/$(APP_NAME)
+
 clean:
 	@echo "Cleaning build artifacts..."
 	rm -rf build dist __pycache__ *.spec
