@@ -4,22 +4,13 @@ from graph.representation.incidency_matrix import IncidencyMatrix
 from cli.command import Command
 
 class IsSubgraphCommand(Command):
-    @property
-    def symbol(self) -> str:
-        return "isg"
-
-    def execute(self, context, args):
+    def execute(self, context):
         if not hasattr(context, "current_representation") or context.current_representation is None:
             print("No graph representation selected. Please select a representation first.")
             return
 
-        if len(args) < 2:
-            print("Usage: isg <other_graph> <representation_mode>")
-            print("You must provide another graph representation from another graph.")
-            return
-
-        other_graph = args[0]
-        other_representation_name = args[1]
+        other_graph = input("other_graph: ")
+        other_representation_name = input("representation: ")
 
         if other_representation_name not in ("al", "im", "am"):
             print(f"Representation '{other_representation_name}'.")
@@ -48,4 +39,4 @@ class IsSubgraphCommand(Command):
             print("The current representation is NOT a subgraph of the given representation.")
 
     def __str__(self):
-        return "isg <other_graph> <representation_mode> - Check if the current representation is a subgraph of another representation from another graph"
+        return "Check if the current representation is a subgraph of another representation from another graph"

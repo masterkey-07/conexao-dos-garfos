@@ -1,11 +1,7 @@
 from cli.command import Command
 
 class CountEdgesCommand(Command):
-    @property
-    def symbol(self) -> str:
-        return "ce"
-
-    def execute(self, context, args):
+    def execute(self, context):
         if not hasattr(context, "current_representation") or context.current_representation is None:
             print("No graph selected. Please select a graph first.")
             return
@@ -14,4 +10,4 @@ class CountEdgesCommand(Command):
         print(f"Number of edges in graph '{context.current_graph.name}': {number}")
 
     def __str__(self):
-        return "ce - Count the number of edges in the current graph"
+        return "Count the number of edges in the current graph"

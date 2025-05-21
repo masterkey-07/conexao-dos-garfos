@@ -2,16 +2,8 @@ from cli.command import Command
 from cli.project import Project
 
 class CreateProjectCommand(Command):
-    @property
-    def symbol(self) -> str:
-        return "cp"
-
-    def execute(self, context, args):
-        if not args:
-            print("Usage: cp <project_name>")
-            return
-
-        project_name = args[0]
+    def execute(self, context):
+        project_name = input("project_name: ")
 
         project = Project(project_name)
 
@@ -20,4 +12,4 @@ class CreateProjectCommand(Command):
         context.current_project = project
 
     def __str__(self):
-        return "cp <project_name> - Create a new project"
+        return "Create a new project"

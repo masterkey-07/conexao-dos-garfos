@@ -2,20 +2,12 @@ import os
 from cli.command import Command
 
 class DeleteGraphCommand(Command):
-    @property
-    def symbol(self) -> str:
-        return "dg"
-
-    def execute(self, context, args):
+    def execute(self, context):
         if not hasattr(context, "current_project") or context.current_project is None:
             print("No project selected. Please select a project first.")
             return
 
-        if not args:
-            print("Usage: dg <graph_name>")
-            return
-
-        graph_name = args[0]
+        graph_name = input("graph_name: ")
         graph_file = graph_name if graph_name.endswith(".json") else graph_name + ".json"
         file_path = os.path.join(context.current_project.folder_path, graph_file)
 
@@ -25,7 +17,7 @@ class DeleteGraphCommand(Command):
 
         try:
             os.remove(file_path)
-            # Remove from the project's graphs dictionary if loaded
+
             if graph_name in context.current_project.graphs:
                 del context.current_project.graphs[graph_name]
             elif graph_file in context.current_project.graphs:
@@ -35,4 +27,4 @@ class DeleteGraphCommand(Command):
             print(f"Failed to delete graph: {e}")
 
     def __str__(self):
-        return "dg <graph_name> - Delete a graph from the current project"
+        return "Delete a graph from the current project"

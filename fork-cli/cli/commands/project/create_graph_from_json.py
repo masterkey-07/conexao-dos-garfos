@@ -8,16 +8,12 @@ class CreateGraphFromJsonCommand(Command):
     def symbol(self) -> str:
         return "cgj"
 
-    def execute(self, context, args):
+    def execute(self, context):
         if not hasattr(context, "current_project") or context.current_project is None:
             print("No project selected. Please select a project first.")
             return
 
-        if len(args) < 1:
-            print("Usage: cgj <graph_name> <json_file_path>")
-            return
-
-        json_file_path = args[0]
+        json_file_path = input("json_file_path: ")
 
         if not os.path.isfile(json_file_path):
             print(f"JSON file '{json_file_path}' does not exist.")
@@ -40,4 +36,4 @@ class CreateGraphFromJsonCommand(Command):
             print(f"Failed to create graph from JSON: {e}")
 
     def __str__(self):
-        return "cgj <graph_name> <json_file_path> - Create a new graph from a JSON file in the current project"
+        return "Create a new graph from a JSON file in the current project"

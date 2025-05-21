@@ -15,7 +15,7 @@ test:
 	@echo "Testing projects..."
 	pytest
 
-install: build
+install:build
 	@echo "Installing binary to /usr/local/bin/ (requires sudo)"
 	sudo cp dist/$(APP_NAME) /usr/local/bin/$(APP_NAME)
 

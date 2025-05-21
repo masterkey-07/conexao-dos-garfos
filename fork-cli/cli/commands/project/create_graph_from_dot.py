@@ -3,20 +3,12 @@ from cli.command import Command
 from graph.core.graph import Graph
 
 class CreateGraphFromDotCommand(Command):
-    @property
-    def symbol(self) -> str:
-        return "cgd"
-
-    def execute(self, context, args):
+    def execute(self, context):
         if not hasattr(context, "current_project") or context.current_project is None:
             print("No project selected. Please select a project first.")
             return
 
-        if len(args) < 1:
-            print("Usage: cgd <dot_file_path>")
-            return
-
-        dot_file_path = args[0]
+        dot_file_path = input("dot_file_path: ")
 
         if not os.path.isfile(dot_file_path):
             print(f"DOT file '{dot_file_path}' does not exist.")
@@ -69,4 +61,4 @@ class CreateGraphFromDotCommand(Command):
             print(f"Failed to create graph from DOT: {e}")
 
     def __str__(self):
-        return "cgd <dot_file_path> - Create a new graph from a DOT file in the current project"
+        return "Create a new graph from a DOT file in the current project"

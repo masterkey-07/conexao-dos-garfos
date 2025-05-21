@@ -3,11 +3,7 @@ from cli.command import Command
 from config import FORK_PATH
 
 class ListProjectsCommand(Command):
-    @property
-    def symbol(self) -> str:
-        return "lp"
-
-    def execute(self, context, args):
+    def execute(self, context):
         if not os.path.isdir(FORK_PATH):
             print("No projects directory found.")
             return
@@ -26,4 +22,4 @@ class ListProjectsCommand(Command):
             print(f"- {project}")
 
     def __str__(self):
-        return "lp - List all projects"
+        return "List all projects"

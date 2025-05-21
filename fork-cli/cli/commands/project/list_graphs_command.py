@@ -1,11 +1,7 @@
 from cli.command import Command
 
 class ListGraphsCommand(Command):
-    @property
-    def symbol(self) -> str:
-        return "lg"
-
-    def execute(self, context, args):
+    def execute(self, context):
         if not hasattr(context, "current_project") or context.current_project is None:
             print("No project selected. Please select a project first.")
             return
@@ -20,4 +16,4 @@ class ListGraphsCommand(Command):
             print(f"- {graph}")
 
     def __str__(self):
-        return "lg - List all graphs in the current project"
+        return "List all graphs in the current project"

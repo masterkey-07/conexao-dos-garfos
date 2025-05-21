@@ -1,11 +1,7 @@
 from cli.command import Command
 
 class SaveGraphCommand(Command):
-    @property
-    def symbol(self) -> str:
-        return "sgv"
-
-    def execute(self, context, args):
+    def execute(self, context):
         if not hasattr(context, "current_project") or context.current_project is None:
             print("No project selected. Please select a project first.")
             return
@@ -18,4 +14,4 @@ class SaveGraphCommand(Command):
         print(f"Graph '{context.current_graph.name}' saved in project '{context.current_project.project_name}'.")
 
     def __str__(self):
-        return "sgv - Save the current graph to the current project"
+        return "Save the current graph to the current project"

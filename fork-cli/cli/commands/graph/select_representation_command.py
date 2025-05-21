@@ -5,27 +5,24 @@ from graph.representation.adjacency_matrix import AdjacencyMatrix
 from graph.representation.incidency_matrix import IncidencyMatrix
 from cli.commands.representation import REPRESENTATION_COMMANDS
 
-class SelectRepresentationCommand(Command):
-    @property
-    def symbol(self) -> str:
-        return "sr"
+REP_MAP = {
+    "al": "Adjacency List",
+    "am": "Adjacency Matrix",
+    "im": "Incidency Matrix"
+}
 
-    def execute(self, context, args):
+class SelectRepresentationCommand(Command):
+    def execute(self, context):
         if not hasattr(context, "current_graph") or context.current_graph is None:
             print("No graph selected. Please select a graph first.")
             return
 
-        if not args:
-            print("Usage: sr <representation>")
-            print("Available representations: al (adjacency_list), am (adjacency_matrix), im (incidency matrix)")
-            return
-
-        representation = args[0]
+        representation = input("representation: ")
         valid_representations = ["al", "am", "im"]
 
         if representation not in valid_representations:
             print(f"Invalid representation '{representation}'.")
-            print("Available representations: adjacency_list, adjacency_matrix, incidency_matrix")
+            print("Available representations: \n\tal (Adjacency List)\n\tam (Adjacency Matrix)\n\tim (Incidency Matrix)")
             return
 
         if representation == "al":
@@ -37,8 +34,9 @@ class SelectRepresentationCommand(Command):
 
         print(f"Graph representation set to '{representation}' for graph '{context.current_graph.name}'.")
 
-        # Start a new Commander session for representation commands if needed
-        commander = Commander(commands=REPRESENTATION_COMMANDS, context=context, context_name=context.current_project.project_name + "/" + context.current_graph.name + "/" + representation + ">")
+        context_name = "Project: " + context.current_project.project_name + " - Graph: " + context.current_graph.name + " - Representation: " + REP_MAP[representation]
+
+        commander = Commander(commands=REPRESENTATION_COMMANDS, context=context, context_name=context_name)
         commander.run()
 
         context.current_representation = None
@@ -46,4 +44,4 @@ class SelectRepresentationCommand(Command):
         print(f"Exited from graph representation.")
 
     def __str__(self):
-        return "sr <representation> - Select the representation for the current graph: al (adjacency_list), am (adjacency_matrix), im (edge_list)"
+        return "Select the representation for the current graph: \n\t\tal (Adjacency List)\n\t\tam (Adjacency Matrix)\n\t\tim (Incidency Matrix)"

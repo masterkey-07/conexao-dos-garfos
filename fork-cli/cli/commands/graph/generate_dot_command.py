@@ -1,16 +1,14 @@
 from cli.command import Command
 
 class GenerateDotCommand(Command):
-    @property
-    def symbol(self) -> str:
-        return "gd"
-
-    def execute(self, context, args):
+    def execute(self, context):
         if not hasattr(context, "current_graph") or context.current_graph is None:
             print("No graph selected. Please select a graph first.")
             return
 
-        filename = args[0] if args else f"{context.current_graph.name}.dot"
+        filename = input(f"filename [{context.current_graph.name}.dot]: ")
+
+        filename = filename if len(filename.strip()) > 0 else f"{context.current_graph.name}.dot"
 
         dot_lines = [
             "graph G {"
@@ -32,4 +30,4 @@ class GenerateDotCommand(Command):
             print(f"Failed to write DOT file: {e}")
 
     def __str__(self):
-        return "gd [filename] - Generate a DOT file for the current graph (for use in Gephi, Graphviz, etc.)"
+        return "Generate a DOT file for the current graph (for use in Gephi, Graphviz, etc.)"

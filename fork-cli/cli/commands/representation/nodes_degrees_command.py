@@ -1,11 +1,7 @@
 from cli.command import Command
 
 class NodesDegreesCommand(Command):
-    @property
-    def symbol(self) -> str:
-        return "nds"
-
-    def execute(self, context, args):
+    def execute(self, context):
         if not hasattr(context, "current_representation") or context.current_representation is None:
             print("No graph representation selected. Please select a representation first.")
             return
@@ -20,4 +16,4 @@ class NodesDegreesCommand(Command):
             print(f"Node '{node_id}': {degree}")
 
     def __str__(self):
-        return "nds - Show the degree of all nodes in the current representation"
+        return "Show the degree of all nodes in the current representation"

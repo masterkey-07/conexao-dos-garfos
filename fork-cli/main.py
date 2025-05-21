@@ -8,6 +8,6 @@ from cli.context import Context
 if not path.exists(FORK_PATH):
     mkdir(FORK_PATH)
 
-commander = Commander(commands=ROOT_COMMANDS, context=Context())
+commander = Commander(commands=ROOT_COMMANDS, context=Context(), context_name="Fork CLI - Graph Manager")
 
 commander.run()

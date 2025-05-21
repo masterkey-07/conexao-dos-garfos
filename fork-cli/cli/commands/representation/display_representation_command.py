@@ -1,11 +1,7 @@
 from cli.command import Command
 
 class DisplayRepresentationCommand(Command):
-    @property
-    def symbol(self) -> str:
-        return "dr"
-
-    def execute(self, context, args):
+    def execute(self, context):
         if not hasattr(context, "current_graph") or context.current_graph is None:
             print("No graph selected. Please select a graph first.")
             return
@@ -19,4 +15,4 @@ class DisplayRepresentationCommand(Command):
         print(context.current_representation)
 
     def __str__(self):
-        return "dr - Display the current graph in the selected representation"
+        return "Display the current graph in the selected representation"
