@@ -54,6 +54,8 @@ class Commander:
                 if command_index == "help":
                     self._help()
                 elif command_index == "exit":
+                    self._clear_log()
+                    self._help()
                     break
                 else:
                     self._execute(command_index)
