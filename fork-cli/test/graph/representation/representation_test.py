@@ -113,6 +113,10 @@ def test_is_supergraph_and_subgraph(simple_representation, Representation):
 
     rep2 = simple_representation
 
-    assert rep1.is_supergraph(rep2)
-    assert not rep2.is_supergraph(rep1)
-    assert rep2.is_subgraph(rep1)
+    assert rep1.is_supergraph(rep2) == True
+    assert rep2.is_subgraph(rep1) == True
+    
+    nodes, edges = rep2.is_supergraph(rep1)
+
+    assert set(nodes).issubset({"D"})
+    assert set(edges).issubset({("D", "C"), ("C", "A"),("C", "D"), ("A", "C")})

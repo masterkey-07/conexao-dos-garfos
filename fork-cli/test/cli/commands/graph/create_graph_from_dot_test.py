@@ -7,8 +7,7 @@ class DummyContext:
     def __init__(self, project):
         self.current_project = project
 
-def test_create_graph_from_dot_command():
-    # Create a temporary DOT file
+def test_create_graph_from_dot_command(monkeypatch):
     dot_content = """
     graph G {
         A -- B [label="a"];
@@ -19,6 +18,9 @@ def test_create_graph_from_dot_command():
     """
     with tempfile.TemporaryDirectory() as tmpdir:
         dot_path = os.path.join(tmpdir, "test_graph.dot")
+
+        monkeypatch.setattr("builtins.input", lambda _: dot_path)
+
         with open(dot_path, "w") as f:
             f.write(dot_content)
 
@@ -30,8 +32,10 @@ def test_create_graph_from_dot_command():
         project.folder_path = project_path  # Override to use temp dir
 
         context = DummyContext(project)
+
         cmd = CreateGraphFromDotCommand()
-        cmd.execute(context, [dot_path])
+
+        cmd.execute(context)
 
         # Check if the graph was created and saved
         graph = context.current_project.get_graph("test_graph")

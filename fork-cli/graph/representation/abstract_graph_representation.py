@@ -99,15 +99,21 @@ class AbstractGraphRepresentation(ABC):
         return None
 
     def is_supergraph(self, other: 'AbstractGraphRepresentation'):
+        missing_edges = []
+        missing_nodes = []
+
         for node_id in other.degrees():
             if not self.has_node(node_id[0]):
-                return False
+                missing_nodes.append(node_id[0])
     
         for node_id, _ in other.degrees():
             for neighbor in other.adjacent_vertices(node_id):
                 if not self.has_edge(node_id, neighbor):
-                    return False
+                    missing_edges.append((node_id, neighbor))
     
+        if len(missing_edges) > 0 or len(missing_nodes) > 0:
+            return missing_nodes, missing_edges
+
         return True
     
     def is_subgraph(self, other: 'AbstractGraphRepresentation'):

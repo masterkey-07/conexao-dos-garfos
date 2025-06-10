@@ -33,10 +33,16 @@ class IsSubgraphCommand(Command):
 
         is_sub = context.current_representation.is_subgraph(other_representation)
         
-        if is_sub:
+        if is_sub == True:
             print("The current representation is a subgraph of the given representation.")
         else:
+            missing_nodes, missing_edges = is_sub
             print("The current representation is NOT a subgraph of the given representation.")
+
+            if len(missing_nodes) > 0:
+                print(f"Missing nodes: {', '.join(missing_nodes)}")
+            if len(missing_edges) > 0:
+                print(f"Missing edges: {', '.join([f'{edge[0]}-{edge[1]}' for edge in missing_edges])}")
 
     def __str__(self):
         return "Check if the current representation is a subgraph of another representation from another graph"
