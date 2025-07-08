@@ -1,0 +1,55 @@
+\section{Fundamentos dos Grafos}
+
+\begin{frame}[plain]
+  \centering
+  \Huge \insertsection
+\end{frame}
+
+\begin{frame}{Definição de Grafo}
+  \begin{itemize}
+    \item Um grafo é um par \( G = (V, E) \), onde:
+    \begin{itemize}
+        \item \( V \) é o conjunto de vértices (ou nós)
+        \item \( E \) é o conjunto de arestas (conexões entre vértices)
+    \end{itemize}
+    \item Pode ser direcionado ou não-direcionado.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Vizinhança, Grau e Adjacência}
+  \begin{itemize}
+    \item \textbf{Vizinhança:} Conjunto de nós diretamente conectados.
+    \item \textbf{Grau:} Número de arestas conectadas a um vértice.
+    \item \textbf{Nós adjacentes:} Conectados diretamente por uma aresta.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Soma dos Graus e Lema do Aperto de Mão}
+  \begin{block}{Lema do Aperto de Mão}
+    Em qualquer grafo não direcionado:
+    \[
+    \sum_{v \in V} \deg(v) = 2|E|
+    \]
+  \end{block}
+\end{frame}
+
+\begin{frame}{Busca em Largura (BFS) e Busca em Profundidade (DFS)}
+  \begin{itemize}
+    \item \textbf{Busca em Largura (BFS):} Explora o grafo por níveis, visitando todos os vizinhos antes de avançar.
+    \item \textbf{Busca em Profundidade (DFS):} Explora o grafo indo o mais fundo possível antes de retroceder.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Árvores Geradoras (Spanning Trees)}
+  \begin{itemize}
+    \item Uma árvore geradora é um subgrafo que conecta todos os vértices sem formar ciclos.
+    \item Utilizada em algoritmos como Kruskal e Prim para encontrar árvores geradoras mínimas.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Caminhos Mínimos}
+  \begin{itemize}
+    \item \textbf{Dijkstra:} Algoritmo para encontrar o caminho mais curto em grafos com pesos não-negativos.
+    \item \textbf{Bellman-Ford:} Algoritmo que lida com pesos negativos e detecta ciclos negativos.
+  \end{itemize}
+\end{frame}
