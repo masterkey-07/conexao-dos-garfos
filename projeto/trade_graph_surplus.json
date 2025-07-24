@@ -1,0 +1,4195 @@
+{
+  "nodes": [
+    {
+      "id": "Russia"
+    },
+    {
+      "id": "G7"
+    },
+    {
+      "id": "European Union (28 countries)"
+    },
+    {
+      "id": "Czechia"
+    },
+    {
+      "id": "Iceland"
+    },
+    {
+      "id": "Austria"
+    },
+    {
+      "id": "Belgium"
+    },
+    {
+      "id": "Germany"
+    },
+    {
+      "id": "Luxembourg"
+    },
+    {
+      "id": "Israel"
+    },
+    {
+      "id": "Japan"
+    },
+    {
+      "id": "World"
+    },
+    {
+      "id": "Portugal"
+    },
+    {
+      "id": "Norway"
+    },
+    {
+      "id": "New Zealand"
+    },
+    {
+      "id": "Slovenia"
+    },
+    {
+      "id": "Denmark"
+    },
+    {
+      "id": "Hungary"
+    },
+    {
+      "id": "United Kingdom"
+    },
+    {
+      "id": "Korea"
+    },
+    {
+      "id": "Indonesia"
+    },
+    {
+      "id": "OECD - Total"
+    },
+    {
+      "id": "Saudi Arabia"
+    },
+    {
+      "id": "Costa Rica"
+    },
+    {
+      "id": "Greece"
+    },
+    {
+      "id": "Netherlands"
+    },
+    {
+      "id": "Australia"
+    },
+    {
+      "id": "South Africa"
+    },
+    {
+      "id": "Brazil"
+    },
+    {
+      "id": "Colombia"
+    },
+    {
+      "id": "France"
+    },
+    {
+      "id": "Ireland"
+    },
+    {
+      "id": "G20"
+    },
+    {
+      "id": "Finland"
+    },
+    {
+      "id": "Mexico"
+    },
+    {
+      "id": "Slovak Republic"
+    },
+    {
+      "id": "United States"
+    },
+    {
+      "id": "Chile"
+    },
+    {
+      "id": "Türkiye"
+    },
+    {
+      "id": "European Union (27 countries)"
+    },
+    {
+      "id": "Lithuania"
+    },
+    {
+      "id": "Sweden"
+    },
+    {
+      "id": "Latvia"
+    },
+    {
+      "id": "India"
+    },
+    {
+      "id": "Poland"
+    },
+    {
+      "id": "Spain"
+    },
+    {
+      "id": "Italy"
+    },
+    {
+      "id": "Canada"
+    },
+    {
+      "id": "Switzerland"
+    },
+    {
+      "id": "China (People's Republic of)"
+    },
+    {
+      "id": "Estonia"
+    },
+    {
+      "id": "Argentina"
+    }
+  ],
+  "edges": [
+    {
+      "first_node": "Russia",
+      "second_node": "Italy"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Luxembourg"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "India",
+      "second_node": "Hungary"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Colombia",
+      "second_node": "Costa Rica"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Sweden"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Sweden"
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Korea"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Korea"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "OECD - Total"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Indonesia"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Austria"
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "World"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Japan"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "France",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Ireland"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Colombia",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "India",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "European Union (27 countries)",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "World"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Austria"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "India"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Costa Rica",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "European Union (27 countries)",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Costa Rica",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "World"
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "World"
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Sweden"
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Colombia",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "India",
+      "second_node": "Costa Rica"
+    },
+    {
+      "first_node": "France",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Colombia",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "India"
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "France",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Hungary"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "France",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "European Union (28 countries)",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Luxembourg"
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Hungary"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Luxembourg"
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "World"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Russia"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "World"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Luxembourg"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Costa Rica"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Colombia",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Ireland"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Russia"
+    },
+    {
+      "first_node": "Costa Rica",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Luxembourg"
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Indonesia"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Costa Rica"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "European Union (27 countries)",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Costa Rica"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Italy"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Czechia"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "India"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Luxembourg"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "India"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "World"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "France",
+      "second_node": "Korea"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Germany"
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Korea"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "India"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Indonesia"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Russia"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Germany"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "European Union (27 countries)",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "India",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Indonesia"
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Italy"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Indonesia"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Costa Rica"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Italy"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Costa Rica"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Germany"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Costa Rica",
+      "second_node": "Ireland"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Sweden"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Colombia",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Costa Rica",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "OECD - Total"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Italy"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "India"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Korea"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Japan"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Germany"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Slovak Republic"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Japan"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Luxembourg"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Hungary"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Japan"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "European Union (28 countries)",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "World"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Hungary"
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Italy"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Russia"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Austria"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "India",
+      "second_node": "Slovak Republic"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Indonesia"
+    },
+    {
+      "first_node": "India",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "OECD - Total"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "OECD - Total"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "OECD - Total"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "China (People's Republic of)"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Czechia"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "Germany"
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Colombia",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Colombia",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Hungary"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "India",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Japan"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "India"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Costa Rica",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "Costa Rica"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Czechia"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "OECD - Total"
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Indonesia"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "Hungary"
+    },
+    {
+      "first_node": "France",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "United States",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "European Union (28 countries)",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Luxembourg"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Sweden"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "OECD - Total"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Italy"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Colombia",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Slovak Republic"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Slovak Republic"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Hungary"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Italy"
+    },
+    {
+      "first_node": "India",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Costa Rica",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "India",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Germany"
+    },
+    {
+      "first_node": "France",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "European Union (28 countries)",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Costa Rica"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "India"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Austria"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "India"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Korea"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Japan"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "World"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "European Union (27 countries)",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "France",
+      "second_node": "Luxembourg"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "World"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "European Union (27 countries)",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Luxembourg"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "India",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "World"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "World"
+    },
+    {
+      "first_node": "India",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Italy"
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "India",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "France",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Germany"
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Russia"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Luxembourg"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Italy"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Sweden"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "OECD - Total"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Costa Rica"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Sweden"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "European Union (27 countries)",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "OECD - Total"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "Russia"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Costa Rica",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Korea"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Korea"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Japan"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Korea"
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "India"
+    },
+    {
+      "first_node": "France",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Slovak Republic"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "European Union (27 countries)",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Japan"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Slovak Republic"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Korea"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Slovak Republic"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Italy"
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "China (People's Republic of)"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Costa Rica"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Hungary"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Japan"
+    },
+    {
+      "first_node": "France",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Austria"
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "European Union (28 countries)",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "France",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Colombia",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Indonesia"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Austria"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Sweden"
+    },
+    {
+      "first_node": "European Union (28 countries)",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "OECD - Total"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Indonesia"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Germany"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Colombia",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Czechia"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Austria"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "India"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Hungary"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Czechia"
+    },
+    {
+      "first_node": "European Union (27 countries)",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Slovak Republic"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Luxembourg"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Slovak Republic"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Italy"
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Korea"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Costa Rica",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "Sweden"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Costa Rica"
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Japan"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "European Union (27 countries)",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Costa Rica",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Czechia"
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Hungary"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "Slovak Republic"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Russia"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "India"
+    },
+    {
+      "first_node": "Colombia",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Sweden"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "World"
+    },
+    {
+      "first_node": "India",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Japan"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "France",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "European Union (28 countries)",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "European Union (28 countries)",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Slovak Republic"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "World"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "OECD - Total"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "Costa Rica",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "Czechia"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Russia"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "India",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "OECD - Total"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "China (People's Republic of)"
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Türkiye",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Czechia"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Greece",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Czechia"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "France",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Japan"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Austria"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Colombia",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "OECD - Total"
+    },
+    {
+      "first_node": "European Union (28 countries)",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "India"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Hungary"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "World"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Korea"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Sweden"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Netherlands",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "France",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "New Zealand",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Costa Rica"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "European Union (28 countries)",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "France",
+      "second_node": "Indonesia"
+    },
+    {
+      "first_node": "Ireland",
+      "second_node": "Japan"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "World"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Denmark"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Costa Rica",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "India"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "France"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "India"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "India"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "European Union (27 countries)",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "India"
+    },
+    {
+      "first_node": "South Africa",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Slovak Republic"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Israel"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Austria"
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Luxembourg"
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Japan"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "European Union (28 countries)",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Germany"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Korea"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Sweden"
+    },
+    {
+      "first_node": "France",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "OECD - Total"
+    },
+    {
+      "first_node": "Hungary",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Estonia",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "European Union (28 countries)",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Luxembourg",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Argentina"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Indonesia"
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Mexico"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "World"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "China (People's Republic of)"
+    },
+    {
+      "first_node": "Latvia",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Portugal",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "Israel",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "India",
+      "second_node": "United States"
+    },
+    {
+      "first_node": "Iceland",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Lithuania",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Norway",
+      "second_node": "Saudi Arabia"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Slovak Republic"
+    },
+    {
+      "first_node": "India",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "World"
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Korea",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Belgium"
+    },
+    {
+      "first_node": "Finland",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "G7"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "China (People's Republic of)"
+    },
+    {
+      "first_node": "Italy",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "India",
+      "second_node": "Italy"
+    },
+    {
+      "first_node": "United States",
+      "second_node": "Iceland"
+    },
+    {
+      "first_node": "France",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Finland"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Korea"
+    },
+    {
+      "first_node": "Indonesia",
+      "second_node": "Portugal"
+    },
+    {
+      "first_node": "Canada",
+      "second_node": "OECD - Total"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Colombia"
+    },
+    {
+      "first_node": "European Union (28 countries)",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Switzerland"
+    },
+    {
+      "first_node": "India",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Chile"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "Sweden"
+    },
+    {
+      "first_node": "Brazil",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "United Kingdom",
+      "second_node": "Australia"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "Lithuania"
+    },
+    {
+      "first_node": "Costa Rica",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Austria"
+    },
+    {
+      "first_node": "Chile",
+      "second_node": "China (People's Republic of)"
+    },
+    {
+      "first_node": "India",
+      "second_node": "Brazil"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "Germany",
+      "second_node": "OECD - Total"
+    },
+    {
+      "first_node": "Slovak Republic",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "New Zealand"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "Norway"
+    },
+    {
+      "first_node": "Belgium",
+      "second_node": "Poland"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Luxembourg"
+    },
+    {
+      "first_node": "Australia",
+      "second_node": "G20"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "Greece"
+    },
+    {
+      "first_node": "Colombia",
+      "second_node": "South Africa"
+    },
+    {
+      "first_node": "Austria",
+      "second_node": "India"
+    },
+    {
+      "first_node": "Switzerland",
+      "second_node": "Spain"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Estonia"
+    },
+    {
+      "first_node": "Sweden",
+      "second_node": "Japan"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Slovenia"
+    },
+    {
+      "first_node": "Poland",
+      "second_node": "Hungary"
+    },
+    {
+      "first_node": "Czechia",
+      "second_node": "Latvia"
+    },
+    {
+      "first_node": "Spain",
+      "second_node": "Canada"
+    },
+    {
+      "first_node": "China (People's Republic of)",
+      "second_node": "Türkiye"
+    },
+    {
+      "first_node": "Russia",
+      "second_node": "Netherlands"
+    },
+    {
+      "first_node": "Mexico",
+      "second_node": "United Kingdom"
+    },
+    {
+      "first_node": "Denmark",
+      "second_node": "World"
+    },
+    {
+      "first_node": "Japan",
+      "second_node": "Korea"
+    },
+    {
+      "first_node": "Slovenia",
+      "second_node": "Lithuania"
+    }
+  ],
+  "name": "TradeGraph_Surplus"
+}
