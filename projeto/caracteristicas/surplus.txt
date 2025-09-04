@@ -1,0 +1,141 @@
+1. 📌 Identificação Geral
+Nome/Identificador do Grafo:
+
+Tipo de Grafo:
+☐ Direcionado ☐ Não Direcionado
+
+Representação usada:
+☐ Lista de adjacência ☐ Matriz de adjacência ☐ Matriz de incidência
+
+Número de vértices (|V|):
+
+Número de arestas (|E|):
+
+2. 🧮 Características Gerais
+É ponderado?
+☐ Sim ☐ Não
+
+Possui laços?
+☐ Sim ☐ Não
+
+Possui arestas múltiplas?
+☐ Sim ☐ Não
+
+É simples (sem laços nem arestas múltiplas)?
+☐ Sim ☐ Não
+
+É completo (todos os vértices conectados)?
+☐ Sim ☐ Não
+
+É bipartido?
+☐ Sim ☐ Não
+
+É planar?
+☐ Sim ☐ Não ☐ Não verificado
+
+3. 🌐 Conectividade
+É conexo?
+☐ Sim ☐ Não
+
+Número de componentes conexas:
+
+Vértices/articulações (pontos de corte):
+
+Arestas de corte (pontes):
+
+4. 🔁 Ciclos
+Possui ciclos?
+☐ Sim ☐ Não
+
+Possui ciclos negativos (se ponderado)?
+☐ Sim ☐ Não ☐ Não aplicável
+
+Possui ciclos eulerianos?
+☐ Sim ☐ Não
+
+Possui ciclo hamiltoniano?
+☐ Sim ☐ Não ☐ Não verificado
+
+5. 🌲 Verificação de Árvore
+É uma árvore?
+☐ Sim ☐ Não
+
+Justificativa:
+Ex: é conexo e possui |V| - 1 arestas.
+
+É uma floresta?
+☐ Sim ☐ Não
+
+6. 📐 Propriedades Métricas
+Grau mínimo e máximo dos vértices:
+
+Densidade do grafo:
+Densidade
+=
+2
+∣
+𝐸
+∣
+∣
+𝑉
+∣
+(
+∣
+𝑉
+∣
+−
+1
+)
+(n
+a
+˜
+o direcionado)
+Densidade= 
+∣V∣(∣V∣−1)
+2∣E∣
+​
+ (n 
+a
+˜
+ o direcionado)
+Densidade
+=
+∣
+𝐸
+∣
+∣
+𝑉
+∣
+(
+∣
+𝑉
+∣
+−
+1
+)
+(direcionado)
+Densidade= 
+∣V∣(∣V∣−1)
+∣E∣
+​
+ (direcionado)
+
+Diâmetro:
+
+Raio:
+
+Centro(s):
+
+7. 🧠 Algoritmos Aplicados
+Busca em Profundidade (DFS) ou Largura (BFS):
+☐ Foi executada ☐ Não foi executada
+
+Árvore geradora mínima (MST):
+☐ Kruskal ☐ Prim ☐ Não aplicável
+
+Caminho mínimo (dijkstra, bellman-ford, floyd-warshall):
+[Detalhar algoritmo usado e resultado]
+
+8. 💡 Observações Finais
+Observações ou insights interessantes sobre o grafo:
+[Por exemplo, vértices centrais, distribuição de graus, clusters, etc.]

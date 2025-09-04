@@ -1,3 +1,5 @@
+from collections import deque
+
 from graph.core.edge import Edge
 from graph.core.node import Node
 from graph.utils.node_pool import NodePool
@@ -105,3 +107,42 @@ class Graph:
         ]
         
         return {"nodes": nodes, "edges": edges, "name": self.name}
+
+    def is_tree(self) -> bool:
+        nodes = self.get_nodes()
+        edges = self.get_edges()
+        
+        length_nodes = len(nodes)
+        
+        length_edges = len(edges)
+
+        if length_nodes == 0:
+            return False
+        
+        if length_edges != length_nodes - 1:
+            return False
+        
+        visited = set()
+        
+        adjacencies = {node.node_id: set() for node in nodes}
+        
+        for edge in edges:
+            adjacencies[edge.first_node.node_id].add(edge.second_node.node_id)
+            adjacencies[edge.second_node.node_id].add(edge.first_node.node_id)
+        
+        queue = deque()
+        
+        start = nodes[0].node_id
+        
+        queue.append(start)
+        
+        visited.add(start)
+
+        while queue:
+            current = queue.popleft()
+            for neighbor in adjacencies[current]:
+                if neighbor not in visited:
+                    visited.add(neighbor)
+                    queue.append(neighbor)
+
+        return len(visited) == length_nodes

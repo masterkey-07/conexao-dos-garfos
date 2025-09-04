@@ -177,3 +177,42 @@ def test_graph_from_dict():
     graph_dict = graph.to_dict()
 
     assert graph_dict == graph_data
+
+def test_is_tree():
+    graph = Graph("tree_graph")
+    graph.add_node("A")
+    graph.add_node("B")
+    graph.add_node("C")
+    graph.add_edge("A", "B")
+    graph.add_edge("A", "C")
+    assert graph.is_tree() is True
+
+    graph2 = Graph("disconnected_graph")
+    graph2.add_node("A")
+    graph2.add_node("B")
+    graph2.add_node("C")
+    graph2.add_edge("A", "B")
+    assert graph2.is_tree() is False
+
+    graph3 = Graph("cycle_graph")
+    graph3.add_node("A")
+    graph3.add_node("B")
+    graph3.add_node("C")
+    graph3.add_edge("A", "B")
+    graph3.add_edge("B", "C")
+    graph3.add_edge("C", "A")
+    assert graph3.is_tree() is False
+
+    # Not a tree: too many edges
+    graph4 = Graph("extra_edge_graph")
+    graph4.add_node("A")
+    graph4.add_node("B")
+    graph4.add_node("C")
+    graph4.add_edge("A", "B")
+    graph4.add_edge("A", "C")
+    graph4.add_edge("B", "C")
+    assert graph4.is_tree() is False
+
+    # Empty graph is not a tree
+    graph5 = Graph("empty_graph")
+    assert graph5.is_tree() is False

@@ -10,14 +10,97 @@
 
 \usetheme{Pittsburgh}
 \title{Apresentação do Projeto Final\\Análise de Relações Comerciais entre os Países}
-\author{João Guilherme Iwo De La Costa\\Rogério Camilo dos Santos\\Victor Jorge Carvalho Chaves}
+\author{Rogério Camilo dos Santos\\Victor Jorge Carvalho Chaves}
 \institute{Conexão dos Garfos}
 
 \begin{document}
 
 \frame{\titlepage}
 
-% ---- DEFINIÇÕES BÁSICAS ----
+\begin{frame}{O Problema}
+\begin{itemize}
+  \item O comércio internacional é uma rede complexa.
+  \item Hoje existem 195 países no planeta.
+  \item Como encontrar uma forma eficiente de se estudar essas relações?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Complexidade}
+\begin{itemize}
+  \item Países mantém um grande número de relações entre sí.
+  \item Relações comerciais possuem um caráter instável. 
+  \item Existem diversas formas que dois países podem se relacionar que precisam ser analisadas.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Por que resolver com Grafos?}
+\begin{itemize}
+  \item Países serão vértices.
+  \item As relações comerciais serão as arestas.
+  \item Permite rápida análise dessas relações e de outros dados relevantes.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{O Modelo}
+\begin{itemize}
+  \item Serão utilizados 5 grafos diferentes para compor nosso modelo.
+  \item O primeiro possui como aresta a relação de balança comercial entre os países. 
+  \item Os outros três possuem como arestas a relação tarifária entre os países
+  \item Por fim, serão criados novos grafos através da operação de intersecção dos anteriores.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Relações de Superavit}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Surplus.png}
+\end{frame}
+
+\begin{frame}{Relações de Superavit}
+    \begin{itemize}
+      \item Arestas: 1008
+      \item Nós: 52
+      \item Contém Ciclos
+      \item Suiça, Países Baixos, Bélgica, e países nordicos contém os maiores graus.
+      \item Diâmetro: 2
+      \item Raio: 2
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Tarifas}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Tarrifs.png}
+\end{frame}
+
+\begin{frame}{Relações de Superavit}
+    \begin{itemize}
+      \item Arestas: 7698
+      \item Nós: 195
+      \item Contém Ciclos
+      \item Países Africanos e Asiáticos tem o maior grau de tarifas sendo aplicado.
+      \item \item Diâmetro: 2
+      \item Raio: 1
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Baixa Tarifas (Abaixo de 20\%)}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./LowTarrifs.png}
+\end{frame}
+
+\begin{frame}{Alta Tarifas (Igual ou Acima de 20\%)}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./LowTarrifs.png}
+\end{frame}
+
+\begin{frame}{Relações de Superavit com Altas Tarifas sendo Aplicadas)}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./HTS.png}
+\end{frame}
+
+\begin{frame}{Relações de Superavit com Baixas Tarifas sendo Aplicadas)}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./LTS.png}
+\end{frame}
 
 \begin{frame}{Obrigado!}
   \centering

@@ -13,7 +13,6 @@ python3 -m venv .venv
 On Windows
 ```bash
 .venv\Scripts\activate
-source .venv/bin/activate
 ```
 
 On Linux
@@ -28,7 +27,7 @@ pytest
 
 **4 - Run Fork CLI**
 ```
-python3 fork.py
+python3 main.py
 ```
 
 ## Demanda da Série 3

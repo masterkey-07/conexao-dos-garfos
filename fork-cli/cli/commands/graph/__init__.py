@@ -7,6 +7,7 @@ from cli.commands.graph.remove_edge_command import RemoveEdgeCommand
 from cli.commands.graph.remove_node_command import RemoveNodeCommand
 from cli.commands.graph.save_graph_command import SaveGraphCommand
 from cli.commands.graph.select_representation_command import SelectRepresentationCommand
+from cli.commands.graph.remove_orphan_nodes_command import RemoveOrphanNodesCommand
 
 GRAPH_COMMANDS = [
     AddEdgeCommand(), 
@@ -18,4 +19,5 @@ GRAPH_COMMANDS = [
     RemoveNodeCommand(),
     SaveGraphCommand(),
     SelectRepresentationCommand(), 
+    RemoveOrphanNodesCommand()
 ]
